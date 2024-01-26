@@ -1,3 +1,7 @@
 /girolamo
 /result
 /work
+/dataset
+
+.nextflow/
+.nextflow.log*
