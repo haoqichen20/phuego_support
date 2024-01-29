@@ -53,3 +53,22 @@ process Unzip_goa {
 //     gzip -d --force "$gz_file"
 //     """
 // }
+
+process GO_term_parser {
+    publishDir "${params.semsimDir}", mode: "${params.publishMode}"
+
+    input:
+        tuple val(species_ID), 
+              val(species),
+              path(gaf)
+
+    output:
+        tuple val(species_ID),
+              val(species),
+              path("gaf_${species}.gaf")
+
+    script:
+    """
+    go_term_parser.py "$gaf" "$species_ID" "$species"
+    """
+}
