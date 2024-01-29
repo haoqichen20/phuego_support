@@ -26,15 +26,30 @@ process Fetch_uniprot {
     """
 }
 
+process Unzip_goa {
+    publishDir "${params.semsimDir}", mode: "${params.publishMode}"
+
+    input:
+        path gz_file
+    output:
+        path "${gz_file.baseName}"
+    script:
+    """
+    decompress.py "$gz_file"
+    """
+}
+
 // process Unzip_goa {
+//     memory '8 GB'
+
 //     publishDir "${params.semsimDir}", mode: "${params.publishMode}"
 
 //     input:
 //         path gz_file
 //     output:
-
+//         path "${gz_file.baseName}"
 //     script:
 //     """
-    
+//     gzip -d --force "$gz_file"
 //     """
 // }

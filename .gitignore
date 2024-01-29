@@ -5,3 +5,6 @@
 
 .nextflow/
 .nextflow.log*
+flowchart.png
+report.html
+trace.txt
