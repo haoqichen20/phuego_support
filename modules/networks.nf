@@ -18,3 +18,18 @@ process Generate_random_network {
         generate_random_net.py "$ind" "$network"
         """
 }
+
+process Nodes_combination {
+    conda "/hps/software/users/petsalaki/users/hchen/miniconda3/envs/calci"
+
+    publishDir "${params.nodeCombiDir}", mode: "${params.publishMode}"
+
+    input:
+        tuple val(i_node), path(all_nodes)
+    output:
+        path "$i_node"
+    script:
+        """
+        nodes_combinations.py "$i_node" "$all_nodes"
+        """
+}
