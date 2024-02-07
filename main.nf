@@ -8,6 +8,8 @@ include { Generate_random_network } from "./modules/networks"
 include { Unzip_goa } from "./modules/semsim"
 include { GO_term_parser } from "./modules/semsim"
 include { Nodes_combination } from "./modules/networks"
+include { Generate_xml } from "./modules/semsim"
+include { Allvsall_semsim } from "./modules/semsim"
 
 workflow {
     // Download the go terms for sem sim and decompress.
@@ -29,5 +31,15 @@ workflow {
     inodes_ch = all_nodes_ch.splitCsv(sep: '\t', strip: true)
     Nodes_combination(inodes_ch.combine(all_nodes_ch))
 
-
+    // all versus all semantic similarity: 
+    // create xml
+    xml_template_ch = Channel.fromPath(params.xml_template_path)
+    Generate_xml(inodes_ch.merge(Nodes_combination.out[0])
+                          .combine(xml_template_ch)
+                          .take(5))
+    // submit to the java toolkit.
+    sml_toolkit_ch = Channel.fromPath(params.sml_toolkit_path)
+    Allvsall_semsim(Generate_xml.out[0].combine(GO_term_parser.out[0])
+                                       .combine(Fetch_obo.out[0])
+                                       .combine(sml_toolkit_ch))
 }

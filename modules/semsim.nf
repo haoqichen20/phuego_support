@@ -39,21 +39,6 @@ process Unzip_goa {
     """
 }
 
-// process Unzip_goa {
-//     memory '8 GB'
-
-//     publishDir "${params.semsimDir}", mode: "${params.publishMode}"
-
-//     input:
-//         path gz_file
-//     output:
-//         path "${gz_file.baseName}"
-//     script:
-//     """
-//     gzip -d --force "$gz_file"
-//     """
-// }
-
 process GO_term_parser {
     publishDir "${params.semsimDir}", mode: "${params.publishMode}"
 
@@ -61,14 +46,52 @@ process GO_term_parser {
         tuple val(species_ID), 
               val(species),
               path(gaf)
-
     output:
         tuple val(species_ID),
               val(species),
               path("gaf_${species}.gaf")
-
     script:
     """
     go_term_parser.py "$gaf" "$species_ID" "$species"
+    """
+}
+
+process Generate_xml {
+    publishDir "${params.AvsAxmlDir}", mode: "${params.publishMode}", pattern: "*.xml"
+
+    input:
+        tuple val(i_node),
+              path(i_node_combi),
+              path(xml_template)
+    output:
+        tuple val(i_node),
+              path(i_node_combi),
+              path("${i_node}_all.xml")
+    script:
+    """
+    generate_xml.py "$i_node" "$i_node_combi" "$xml_template"
+    """
+}
+
+process Allvsall_semsim {
+    publishDir "${params.AvsAsemsimDir}", mode: "${params.publishMode}"
+    memory '32 GB'
+
+    input:
+        tuple val(i_node),
+              path(i_node_combi),
+              path(i_node_vs_all_xml),
+              val(species_ID),
+              val(species),
+              path(gaf_species),
+              path(go_obo),
+              path(sml_toolkit)
+    output:
+        tuple val(i_node),
+              path("${i_node}.txt")
+              
+    script:
+    """
+    java -jar -Xms12288m -Xmx32768m ./sml-toolkit-0.9.4c.jar -t sm -xmlconf "$i_node_vs_all_xml"
     """
 }
