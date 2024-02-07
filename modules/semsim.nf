@@ -75,7 +75,7 @@ process Generate_xml {
 
 process Allvsall_semsim {
     publishDir "${params.AvsAsemsimDir}", mode: "${params.publishMode}"
-    memory '32 GB'
+    memory '12 GB'
 
     input:
         tuple val(i_node),
