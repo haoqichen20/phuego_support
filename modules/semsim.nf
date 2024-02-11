@@ -58,7 +58,7 @@ process GO_term_parser {
 
 process Generate_xml {
     publishDir "${params.AvsAxmlDir}", mode: "${params.publishMode}", pattern: "*.xml"
-
+    memory '1 GB'
     input:
         tuple val(i_node),
               path(i_node_combi),
