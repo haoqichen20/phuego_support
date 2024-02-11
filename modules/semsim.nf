@@ -95,3 +95,39 @@ process Allvsall_semsim {
     java -jar -Xms12288m -Xmx32768m ./sml-toolkit-0.9.4c.jar -t sm -xmlconf "$i_node_vs_all_xml"
     """
 }
+
+process Edgepairs_xml {
+    publishDir "${params.semsimDir}", mode: "${params.publishMode}", pattern: "*.xml"
+
+    input:
+        path(edge_pairs)
+        path(xml_template)
+    output:
+        tuple path(edge_pairs),
+              path("sml_semsim_edge_pairs.xml")
+    script:
+    """
+    generate_xml_edge_pairs.py "$edge_pairs" "$xml_template"
+    """
+}
+
+process Edgepairs_semsim {
+    publishDir "${params.semsimDir}", mode: "${params.publishMode}"
+    memory '32 GB'
+
+    input:
+        tuple path(edge_pairs),
+              path(edgepairs_xml),
+              val(species_ID),
+              val(species),
+              path(gaf_species),
+              path(go_obo),
+              path(sml_toolkit)
+    output:
+              path("edge_pairs_sem_sim.txt")
+              
+    script:
+    """
+    java -jar -Xms12288m -Xmx32768m ./sml-toolkit-0.9.4c.jar -t sm -xmlconf "$edgepairs_xml"
+    """
+}
