@@ -10,6 +10,7 @@ include { GO_term_parser } from "./modules/semsim"
 include { Nodes_combination } from "./modules/networks"
 include { Generate_xml } from "./modules/semsim"
 include { Allvsall_semsim } from "./modules/semsim"
+include { Node_pairs } from "./modules/networks"
 
 workflow {
     // Download the go terms for sem sim and decompress.
@@ -42,4 +43,11 @@ workflow {
     Allvsall_semsim(Generate_xml.out[0].combine(GO_term_parser.out[0])
                                        .combine(Fetch_obo.out[0])
                                        .combine(sml_toolkit_ch))
+
+    // Calculate the z_score.
+
+
+    // All existing nodes combinations in the reference and randomized networks.
+    // Merge the 1000 randomized network into a list.
+    Node_pairs(network_ch, Generate_random_network.out[1].collect())
 }

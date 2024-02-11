@@ -19,6 +19,7 @@ process Generate_random_network {
         """
 }
 
+// All possible nodes combinations, N*N
 process Nodes_combination {
     conda "/hps/software/users/petsalaki/users/hchen/miniconda3/envs/calci"
 
@@ -32,4 +33,20 @@ process Nodes_combination {
         """
         nodes_combinations.py "$i_node" "$all_nodes"
         """
+}
+
+// All interacting node pairs in reference/randomized networks, subset of N*N
+process Node_pairs {
+    publishDir "${params.semsimDir}", mode: "${params.publishMode}"
+    memory '96 GB'
+
+    input:
+        path(network)
+        path(random_networks)
+    output:
+        path("edge_pairs.txt")
+    script:
+    """
+    node_pairs.py "$network"
+    """
 }
