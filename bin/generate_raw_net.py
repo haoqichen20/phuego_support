@@ -31,6 +31,7 @@ def main():
 			sem_sim[(seq[0],seq[1])]=semsim_val
 		seq=f1.readline()
 
+
 	os.mkdir("raw")
 	for i in range(0,1000,1):
 		f1=open(str(i)+".txt")

@@ -13,11 +13,10 @@ def main():
 	while(seq!=""):
 		seq=seq.strip()
 		if seq.startswith("output "):
-			# No need to use target_dir here. Write to working dir is fine.
 			f2.write(f'output = "{str(i_node)}.txt"\n')
 		elif seq.startswith("file"):
-			# This will only paste in the filename of i_node_combi, since it's passed as a path_ch.
-			# But that's fine. In the next process, we'll also symbolink the file to the process making it accessible for the .jar.
+			# Paste the filename (instead of the full_path) of i_node_combi in the .xml
+			# When feeding the .xml to the java program, symbolink the file to make it accessible.
 			f2.write(f'file = "{i_node_combi}"\n')
 		else:
 			f2.write(seq+"\n")

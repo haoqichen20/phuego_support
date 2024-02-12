@@ -32,7 +32,6 @@ def main():
 		seq=seq.strip().split("\t")
 		if seq[12]==f'taxon:{species_ID}':
 			if "NOT" not in seq:
-				#print ("\t".join(seq[0:3])+"\t\t"+"\t".join(seq[4:])+"\n")
 				f2.write("\t".join(seq[0:3])+"\t\t"+"\t".join(seq[4:])+"\n")
 		seq=f1.readline()
 
