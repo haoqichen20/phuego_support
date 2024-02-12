@@ -50,3 +50,38 @@ process Node_pairs {
     node_pairs.py "$network"
     """
 }
+
+process Generate_raw_network {
+    conda "/hps/software/users/petsalaki/users/hchen/miniconda3/envs/calci"
+    publishDir "${params.rawNetDir}", mode: "${params.publishMode}"
+    memory '32 GB'
+
+    input:
+        path(semsim_minimum)
+        path(edge_pairs_sem_sim)
+        path(network)
+        path(random_networks)
+    output:
+        path("./raw/*.txt")
+
+    script:
+    """
+    generate_raw_net.py "$semsim_minimum" "$edge_pairs_sem_sim" "$network"
+    """
+}
+
+
+process Laplacian_normalization {
+    conda "/hps/software/users/petsalaki/users/hchen/miniconda3/envs/calci"
+    publishDir "${params.normNetDir}", mode: "${params.publishMode}"
+    memory '8 GB'
+
+    input:
+        path(raw_network)
+    output:
+        path("./laplacian/*.txt")
+    script:
+    """
+    normalization.py "$raw_network"
+    """
+}

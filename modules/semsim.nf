@@ -96,6 +96,20 @@ process Allvsall_semsim {
     """
 }
 
+process GOterm_zscore {
+    publishDir "${params.semsimDir}", mode: "${params.publishMode}"
+
+    input:
+        tuple val(i_node),
+              path(i_node_semsim)
+    output:
+        path("semsim.txt")
+    script:
+    """
+    go_term_zscore.py
+    """
+}
+
 process Edgepairs_xml {
     publishDir "${params.semsimDir}", mode: "${params.publishMode}", pattern: "*.xml"
 
@@ -129,5 +143,19 @@ process Edgepairs_semsim {
     script:
     """
     java -jar -Xms12288m -Xmx32768m ./sml-toolkit-0.9.4c.jar -t sm -xmlconf "$edgepairs_xml"
+    """
+}
+
+process Calculate_min {
+    publishDir "${params.semsimDir}", mode: "${params.publishMode}"
+    memory '1 GB'
+
+    input:
+        path(edge_pairs_sem_sim)
+    output:
+        path("minimum.txt")
+    script:
+    """
+    calculate_min.py "$edge_pairs_sem_sim"
     """
 }

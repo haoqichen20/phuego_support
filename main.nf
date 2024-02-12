@@ -10,9 +10,13 @@ include { GO_term_parser } from "./modules/semsim"
 include { Nodes_combination } from "./modules/networks"
 include { Generate_xml } from "./modules/semsim"
 include { Allvsall_semsim } from "./modules/semsim"
+include { GOterm_zscore } from "./modules/semsim"
 include { Node_pairs } from "./modules/networks"
 include { Edgepairs_xml } from "./modules/semsim"
 include { Edgepairs_semsim } from "./modules/semsim"
+include { Calculate_min } from "./modules/semsim"
+include { Generate_raw_network } from "./modules/networks"
+include { Laplacian_normalization } from "./modules/networks"
 
 workflow {
     // Download the go terms for sem sim and decompress.
@@ -44,8 +48,8 @@ workflow {
     Allvsall_semsim(Generate_xml.out[0].combine(GO_term_parser.out[0])
                                        .combine(Fetch_obo.out[0])
                                        .combine(sml_toolkit_ch))
-
     // Calculate the z_score.
+    GOterm_zscore(Allvsall_semsim.out[0])
 
     // All existing nodes combinations in the reference and randomized networks.
     // Merge the 1000 randomized network into a list.
@@ -58,4 +62,12 @@ workflow {
     Edgepairs_semsim(Edgepairs_xml.out[0].combine(GO_term_parser.out[0])
                                          .combine(Fetch_obo.out[0])
                                          .combine(sml_toolkit_ch))
+    // Calculate the minimal semsim of all edge pairs.
+    Calculate_min(Edgepairs_semsim.out[0])
+
+
+    // Populate the raw semantic similarity to reference and randomized networks
+    Generate_raw_network(Calculate_min.out[0], Edgepairs_semsim.out[0], network_ch, Generate_random_network.out[1].collect())
+    // Laplacian normalization of sematic semilarity of the reference and randomized networks
+    Laplacian_normalization(Generate_random_network.out[0])
 }
