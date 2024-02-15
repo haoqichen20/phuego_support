@@ -8,3 +8,5 @@
 flowchart.png
 report.html
 trace.txt
+*.tar
+*.sif

@@ -1,0 +1,2 @@
+numpy==1.24.3
+python-igraph>=0.10.2
