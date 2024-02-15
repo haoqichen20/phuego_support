@@ -6,7 +6,7 @@ WORKDIR /app
 
 # Install Java, wget, and clean up the package lists to reduce image size
 RUN apt-get update && \
-    apt-get install -y openjdk-17-jre-headless wget && \
+    apt-get install -y openjdk-17-jre-headless wget procps && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
