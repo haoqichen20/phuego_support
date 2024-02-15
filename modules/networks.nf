@@ -2,19 +2,31 @@
 
 nextflow.enable.dsl=2
 
+process Export_nodes {
+    publishDir "${params.semsimDir}", mode: "${params.publishMode}"
+
+    input:
+        path(network)
+    output:
+        path "nodes.txt"
+    script:
+    """
+    export_nodes.py "$network"
+    """
+}
+
 process Generate_random_network {
-    publishDir "${params.semsimDir}", mode: "${params.publishMode}", pattern: "nodes.txt"
+
     publishDir "${params.randomNetDir}", mode: "${params.publishMode}", pattern: "${ind}.txt"
 
     input:
         tuple val(ind), path(network)
     output:
-        path "nodes.txt", optional: true
         path "${ind}.txt"
     script:
-        """
-        generate_random_net.py "$ind" "$network"
-        """
+    """
+    generate_random_net.py "$ind" "$network"
+    """
 }
 
 // All possible nodes combinations, N*N
@@ -26,9 +38,9 @@ process Nodes_combination {
     output:
         path "$i_node"
     script:
-        """
-        nodes_combinations.py "$i_node" "$all_nodes"
-        """
+    """
+    nodes_combinations.py "$i_node" "$all_nodes"
+    """
 }
 
 // All interacting node pairs in reference/randomized networks, subset of N*N

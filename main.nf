@@ -4,6 +4,7 @@ nextflow.enable.dsl=2
 
 include { Fetch_obo } from "./modules/semsim"
 include { Fetch_uniprot } from "./modules/semsim"
+include { Export_nodes } from "./modules/networks"
 include { Generate_random_network } from "./modules/networks"
 include { Unzip_goa } from "./modules/semsim"
 include { GO_term_parser } from "./modules/semsim"
@@ -32,9 +33,10 @@ workflow {
     ind_ch = Channel.from(0..999)
     network_ch = Channel.fromPath(params.network_path)
     Generate_random_network(ind_ch.combine(network_ch))
+    Export_nodes(network_ch)
 
     // All possible nodes combinations.
-    all_nodes_ch = Generate_random_network.out[0]
+    all_nodes_ch = Export_nodes.out[0]
     inodes_ch = all_nodes_ch.splitCsv(sep: '\t', strip: true)
     Nodes_combination(inodes_ch.combine(all_nodes_ch))
 
@@ -45,26 +47,26 @@ workflow {
                           .combine(xml_template_ch))
     // submit to the java toolkit.
     Allvsall_semsim(Generate_xml.out[0].combine(GO_term_parser.out[0])
-                                       .combine(Fetch_obo.out[0])
+                                       .combine(Fetch_obo.out[0]))
     // Calculate the z_score.
     GOterm_zscore(Allvsall_semsim.out[0])
 
     // All existing nodes combinations in the reference and randomized networks.
     // Merge the 1000 randomized network into a list.
-    Node_pairs(network_ch, Generate_random_network.out[1].collect())
+    Node_pairs(network_ch, Generate_random_network.out[0].collect())
 
     // All existing node combinations semantic similarity:
     // create xml
     Edgepairs_xml(Node_pairs.out[0], xml_template_ch)
     // submit to the java toolkit.
     Edgepairs_semsim(Edgepairs_xml.out[0].combine(GO_term_parser.out[0])
-                                         .combine(Fetch_obo.out[0])
+                                         .combine(Fetch_obo.out[0]))
     // Calculate the minimal semsim of all edge pairs.
     Calculate_min(Edgepairs_semsim.out[0])
 
 
     // Populate the raw semantic similarity to reference and randomized networks
-    Generate_raw_network(Calculate_min.out[0], Edgepairs_semsim.out[0], network_ch, Generate_random_network.out[1].collect())
+    Generate_raw_network(Calculate_min.out[0], Edgepairs_semsim.out[0], network_ch, Generate_random_network.out[0].collect())
     // Laplacian normalization of sematic semilarity of the reference and randomized networks
-    Laplacian_normalization(Generate_random_network.out[0])
+    Laplacian_normalization(Generate_raw_network.out[0])
 }
