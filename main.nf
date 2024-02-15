@@ -44,10 +44,8 @@ workflow {
     Generate_xml(inodes_ch.merge(Nodes_combination.out[0])
                           .combine(xml_template_ch))
     // submit to the java toolkit.
-    sml_toolkit_ch = Channel.fromPath(params.sml_toolkit_path)
     Allvsall_semsim(Generate_xml.out[0].combine(GO_term_parser.out[0])
                                        .combine(Fetch_obo.out[0])
-                                       .combine(sml_toolkit_ch))
     // Calculate the z_score.
     GOterm_zscore(Allvsall_semsim.out[0])
 
@@ -61,7 +59,6 @@ workflow {
     // submit to the java toolkit.
     Edgepairs_semsim(Edgepairs_xml.out[0].combine(GO_term_parser.out[0])
                                          .combine(Fetch_obo.out[0])
-                                         .combine(sml_toolkit_ch))
     // Calculate the minimal semsim of all edge pairs.
     Calculate_min(Edgepairs_semsim.out[0])
 

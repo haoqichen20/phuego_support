@@ -84,15 +84,14 @@ process Allvsall_semsim {
               val(species_ID),
               val(species),
               path(gaf_species),
-              path(go_obo),
-              path(sml_toolkit)
+              path(go_obo)
     output:
         tuple val(i_node),
               path("${i_node}.txt")
               
     script:
     """
-    java -jar -Xms12288m -Xmx32768m ./sml-toolkit-0.9.4c.jar -t sm -xmlconf "$i_node_vs_all_xml"
+    java -jar -Xms12288m -Xmx32768m ./app/sml-toolkit-0.9.4c.jar -t sm -xmlconf "$i_node_vs_all_xml"
     """
 }
 
@@ -135,14 +134,13 @@ process Edgepairs_semsim {
               val(species_ID),
               val(species),
               path(gaf_species),
-              path(go_obo),
-              path(sml_toolkit)
+              path(go_obo)
     output:
               path("edge_pairs_sem_sim.txt")
               
     script:
     """
-    java -jar -Xms12288m -Xmx32768m ./sml-toolkit-0.9.4c.jar -t sm -xmlconf "$edgepairs_xml"
+    java -jar -Xms12288m -Xmx32768m ./app/sml-toolkit-0.9.4c.jar -t sm -xmlconf "$edgepairs_xml"
     """
 }
 
