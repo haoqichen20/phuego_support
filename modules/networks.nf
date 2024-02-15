@@ -3,8 +3,6 @@
 nextflow.enable.dsl=2
 
 process Generate_random_network {
-    conda "/hps/software/users/petsalaki/users/hchen/miniconda3/envs/calci"
-
     publishDir "${params.semsimDir}", mode: "${params.publishMode}", pattern: "nodes.txt"
     publishDir "${params.randomNetDir}", mode: "${params.publishMode}", pattern: "${ind}.txt"
 
@@ -21,8 +19,6 @@ process Generate_random_network {
 
 // All possible nodes combinations, N*N
 process Nodes_combination {
-    conda "/hps/software/users/petsalaki/users/hchen/miniconda3/envs/calci"
-
     publishDir "${params.nodeCombiDir}", mode: "${params.publishMode}"
 
     input:
@@ -52,7 +48,6 @@ process Node_pairs {
 }
 
 process Generate_raw_network {
-    conda "/hps/software/users/petsalaki/users/hchen/miniconda3/envs/calci"
     publishDir "${params.rawNetDir}", mode: "${params.publishMode}"
     memory '32 GB'
 
@@ -72,7 +67,6 @@ process Generate_raw_network {
 
 
 process Laplacian_normalization {
-    conda "/hps/software/users/petsalaki/users/hchen/miniconda3/envs/calci"
     publishDir "${params.normNetDir}", mode: "${params.publishMode}"
     memory '8 GB'
 
