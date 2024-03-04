@@ -2,6 +2,7 @@
 /result
 /work
 /dataset
+/bin/ipynb
 
 .nextflow/
 .nextflow.log*

@@ -63,9 +63,11 @@ process Node_pairs {
 }
 
 process Generate_raw_network {
-    publishDir "${params.supportDataDir}/networks", 
+    publishDir "${params.supportDataDir}/networks",
     mode: "${params.publishMode}",
-    pattern: "empirical.txt"
+    pattern: "empirical.txt",
+    map: {filename -> "${params.semsim_type}_raw.txt"}
+
 
     memory '32 GB'
 
@@ -85,7 +87,7 @@ process Generate_raw_network {
 
 
 process Laplacian_normalization {
-    publishDir "${params.supportDataDir}/networks/random", 
+    publishDir "${params.supportDataDir}/networks/${params.semsim_type}_random",
     mode: "${params.publishMode}"
     memory '8 GB'
 
