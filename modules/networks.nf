@@ -3,7 +3,8 @@
 nextflow.enable.dsl=2
 
 process Export_nodes {
-    publishDir "${params.semsimDir}", mode: "${params.publishMode}"
+    publishDir "${params.sanityCheckDir}", 
+    mode: "${params.publishMode}"
 
     input:
         path(network)
@@ -16,8 +17,8 @@ process Export_nodes {
 }
 
 process Generate_random_network {
-
-    publishDir "${params.randomNetDir}", mode: "${params.publishMode}", pattern: "${ind}.txt"
+    publishDir "${params.sanityCheckDir}/random_networks_wo_semsim/", 
+    mode: "${params.publishMode}"
 
     input:
         tuple val(ind), path(network)
@@ -31,7 +32,8 @@ process Generate_random_network {
 
 // All possible nodes combinations, N*N
 process Nodes_combination {
-    publishDir "${params.nodeCombiDir}", mode: "${params.publishMode}"
+    publishDir "${params.sanityCheckDir}/nodes_combinations/", 
+    mode: "${params.publishMode}"
 
     input:
         tuple val(i_node), path(all_nodes)
@@ -45,7 +47,8 @@ process Nodes_combination {
 
 // All interacting node pairs in reference/randomized networks, subset of N*N
 process Node_pairs {
-    publishDir "${params.semsimDir}", mode: "${params.publishMode}"
+    publishDir "${params.sanityCheckDir}", 
+    mode: "${params.publishMode}"
     memory '96 GB'
 
     input:
@@ -60,7 +63,10 @@ process Node_pairs {
 }
 
 process Generate_raw_network {
-    publishDir "${params.rawNetDir}", mode: "${params.publishMode}"
+    publishDir "${params.supportDataDir}/networks", 
+    mode: "${params.publishMode}",
+    pattern: "empirical.txt"
+
     memory '32 GB'
 
     input:
@@ -79,7 +85,8 @@ process Generate_raw_network {
 
 
 process Laplacian_normalization {
-    publishDir "${params.normNetDir}", mode: "${params.publishMode}"
+    publishDir "${params.supportDataDir}/networks/random", 
+    mode: "${params.publishMode}"
     memory '8 GB'
 
     input:

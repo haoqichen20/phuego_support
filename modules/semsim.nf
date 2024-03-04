@@ -3,8 +3,10 @@
 nextflow.enable.dsl=2
 
 process Fetch_obo {
-    publishDir "${params.semsimDir}", mode: "${params.publishMode}"
+    publishDir "${params.sanityCheckDir}", 
+    mode: "symlink"
 
+    memory '2 GB'
     output:
         path "go.obo"
 
@@ -15,8 +17,10 @@ process Fetch_obo {
 }
 
 process Fetch_uniprot {
-    publishDir "${params.semsimDir}", mode: "${params.publishMode}"
+    publishDir "${params.sanityCheckDir}", 
+    mode: "symlink"
 
+    memory '2 GB'
     output:
         path "goa_uniprot_all.gaf.gz"
 
@@ -27,8 +31,10 @@ process Fetch_uniprot {
 }
 
 process Unzip_goa {
-    publishDir "${params.semsimDir}", mode: "${params.publishMode}"
+    publishDir "${params.sanityCheckDir}", 
+    mode: "symlink"
 
+    memory '4 GB'
     input:
         path gz_file
     output:
@@ -40,8 +46,10 @@ process Unzip_goa {
 }
 
 process GO_term_parser {
-    publishDir "${params.semsimDir}", mode: "${params.publishMode}"
+    publishDir "${params.sanityCheckDir}", 
+    mode: "symlink"
 
+    memory '4 GB'
     input:
         tuple val(species_ID), 
               val(species),
@@ -57,7 +65,10 @@ process GO_term_parser {
 }
 
 process Generate_xml {
-    publishDir "${params.AvsAxmlDir}", mode: "${params.publishMode}", pattern: "*.xml"
+    publishDir "${params.sanityCheckDir}/all_vs_all_sem_sim_xml", 
+    mode: "symlink", 
+    pattern: "*.xml"
+    
     memory '1 GB'
     input:
         tuple val(i_node),
@@ -74,9 +85,10 @@ process Generate_xml {
 }
 
 process Allvsall_semsim {
-    publishDir "${params.AvsAsemsimDir}", mode: "${params.publishMode}"
-    memory '12 GB'
+    publishDir "${params.supportDataDir}/sim", 
+    mode: "symlink"
 
+    memory '12 GB'
     input:
         tuple val(i_node),
               path(i_node_combi),
@@ -96,8 +108,10 @@ process Allvsall_semsim {
 }
 
 process GOterm_zscore {
-    publishDir "${params.semsimDir}", mode: "${params.publishMode}"
+    publishDir "${params.supportDataDir}", 
+    mode: "${params.publishMode}"
 
+    memory '4 GB'
     input:
         tuple val(i_node),
               path(i_node_semsim)
@@ -110,8 +124,12 @@ process GOterm_zscore {
 }
 
 process Edgepairs_xml {
-    publishDir "${params.semsimDir}", mode: "${params.publishMode}", pattern: "*.xml"
+    publishDir "${params.sanityCheckDir}", 
+    mode: "${params.publishMode}", 
+    pattern: "*.xml"
 
+
+    memory '4 GB'
     input:
         path(edge_pairs)
         path(xml_template)
@@ -125,7 +143,8 @@ process Edgepairs_xml {
 }
 
 process Edgepairs_semsim {
-    publishDir "${params.semsimDir}", mode: "${params.publishMode}"
+    publishDir "${params.sanityCheckDir}",
+    mode: "${params.publishMode}"
     memory '32 GB'
 
     input:
@@ -145,7 +164,8 @@ process Edgepairs_semsim {
 }
 
 process Calculate_min {
-    publishDir "${params.semsimDir}", mode: "${params.publishMode}"
+    publishDir "${params.sanityCheckDir}",
+    mode: "${params.publishMode}"
     memory '1 GB'
 
     input:
