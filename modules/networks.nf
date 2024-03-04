@@ -6,6 +6,7 @@ process Export_nodes {
     publishDir "${params.sanityCheckDir}", 
     mode: "${params.publishMode}"
 
+    memory '2 GB'
     input:
         path(network)
     output:
@@ -20,6 +21,7 @@ process Generate_random_network {
     publishDir "${params.sanityCheckDir}/random_networks_wo_semsim/", 
     mode: "${params.publishMode}"
 
+    memory '2 GB'
     input:
         tuple val(ind), path(network)
     output:
@@ -35,6 +37,7 @@ process Nodes_combination {
     publishDir "${params.sanityCheckDir}/nodes_combinations/", 
     mode: "${params.publishMode}"
 
+    memory '8 GB'
     input:
         tuple val(i_node), path(all_nodes)
     output:
@@ -49,8 +52,8 @@ process Nodes_combination {
 process Node_pairs {
     publishDir "${params.sanityCheckDir}", 
     mode: "${params.publishMode}"
+    
     memory '96 GB'
-
     input:
         path(network)
         path(random_networks)
@@ -70,7 +73,6 @@ process Generate_raw_network {
 
 
     memory '32 GB'
-
     input:
         path(semsim_minimum)
         path(edge_pairs_sem_sim)
@@ -89,8 +91,8 @@ process Generate_raw_network {
 process Laplacian_normalization {
     publishDir "${params.supportDataDir}/networks/${params.semsim_type}_random",
     mode: "${params.publishMode}"
+    
     memory '8 GB'
-
     input:
         path(raw_network)
     output:
