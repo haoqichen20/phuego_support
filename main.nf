@@ -68,5 +68,5 @@ workflow {
     // Populate the raw semantic similarity to reference and randomized networks
     Generate_raw_network(Calculate_min.out[0], Edgepairs_semsim.out[0], network_ch, Generate_random_network.out[0].collect())
     // Laplacian normalization of sematic semilarity of the reference and randomized networks
-    Laplacian_normalization(Generate_raw_network.out[0])
+    Laplacian_normalization(Generate_raw_network.out[0].flatten())
 }

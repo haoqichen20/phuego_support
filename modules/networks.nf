@@ -68,9 +68,8 @@ process Node_pairs {
 process Generate_raw_network {
     publishDir "${params.supportDataDir}/networks",
     mode: "${params.publishMode}",
-    pattern: "empirical.txt",
-    map: {filename -> "${params.semsim_type}_raw.txt"}
-
+    pattern: "raw/empirical.txt",
+    saveAs: {filename -> "${params.semsim_type}_raw.txt"}
 
     memory '32 GB'
     input:
@@ -96,7 +95,7 @@ process Laplacian_normalization {
     input:
         path(raw_network)
     output:
-        path("./laplacian/*.txt")
+        path("laplacian/*.txt")
     script:
     """
     normalization.py "$raw_network"
