@@ -47,8 +47,8 @@ workflow {
     // submit to the java toolkit.
     Allvsall_semsim(Generate_xml.out[0].combine(GO_term_parser.out[0])
                                        .combine(Fetch_obo.out[0]))
-    // Calculate the z_score.
-    GOterm_zscore(Allvsall_semsim.out[0])
+    // Calculate the mean/std for each node and write to one file.
+    GOterm_zscore(Allvsall_semsim.out[0].map{tuple -> tuple[1]}.collect())
 
     // All existing nodes combinations in the reference and randomized networks.
     // Merge the 1000 randomized network into a list.

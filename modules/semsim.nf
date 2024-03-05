@@ -115,8 +115,7 @@ process GOterm_zscore {
 
     memory '4 GB'
     input:
-        tuple val(i_node),
-              path(i_node_semsim)
+        path(i_node_semsims)
     output:
         path("semsim.txt")
     script:
