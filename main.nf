@@ -43,8 +43,7 @@ workflow {
     // All versus all semantic similarity: 
     // create xml
     xml_template_ch = Channel.fromPath(params.xml_template_path)
-    Generate_xml(inodes_ch.merge(Nodes_combination.out[0])
-                          .combine(xml_template_ch))
+    Generate_xml(Nodes_combination.out[0].combine(xml_template_ch))
     // submit to the java toolkit.
     Allvsall_semsim(Generate_xml.out[0].combine(GO_term_parser.out[0])
                                        .combine(Fetch_obo.out[0]))

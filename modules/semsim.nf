@@ -110,7 +110,8 @@ process Allvsall_semsim {
 
 process GOterm_zscore {
     publishDir "${params.supportDataDir}", 
-    mode: "${params.publishMode}"
+    mode: "${params.publishMode}",
+    saveAs: {filename -> "semsim_mean_std.txt"}
 
     memory '4 GB'
     input:

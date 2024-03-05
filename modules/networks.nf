@@ -41,7 +41,8 @@ process Nodes_combination {
     input:
         tuple val(i_node), path(all_nodes)
     output:
-        path "$i_node"
+        tuple val(i_node),
+              path("$i_node")
     script:
     """
     nodes_combinations.py "$i_node" "$all_nodes"
