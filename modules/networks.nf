@@ -4,7 +4,7 @@ nextflow.enable.dsl=2
 
 process Export_nodes {
     publishDir "${params.sanityCheckDir}", 
-    mode: "${params.publishMode}"
+    mode: "symlink"
 
     memory '2 GB'
     input:
@@ -19,7 +19,7 @@ process Export_nodes {
 
 process Generate_random_network {
     publishDir "${params.sanityCheckDir}/random_networks_wo_semsim/", 
-    mode: "${params.publishMode}"
+    mode: "symlink"
 
     memory '2 GB'
     input:
@@ -35,7 +35,7 @@ process Generate_random_network {
 // All possible nodes combinations, N*N
 process Nodes_combination {
     publishDir "${params.sanityCheckDir}/nodes_combinations/", 
-    mode: "${params.publishMode}"
+    mode: "symlink"
 
     memory '8 GB'
     input:
@@ -51,7 +51,7 @@ process Nodes_combination {
 // All interacting node pairs in reference/randomized networks, subset of N*N
 process Node_pairs {
     publishDir "${params.sanityCheckDir}", 
-    mode: "${params.publishMode}"
+    mode: "symlink"
     
     memory '96 GB'
     input:

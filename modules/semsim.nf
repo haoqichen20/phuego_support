@@ -85,8 +85,8 @@ process Generate_xml {
 }
 
 process Allvsall_semsim {
-    publishDir "${params.supportDataDir}/sim", 
-    mode: "symlink"
+    publishDir "${params.supportDataDir}/${params.semsim_type}_sim", 
+    mode: "${params.publishMode}"
 
     cache 'lenient'
     memory '12 GB'
@@ -126,7 +126,7 @@ process GOterm_zscore {
 
 process Edgepairs_xml {
     publishDir "${params.sanityCheckDir}", 
-    mode: "${params.publishMode}", 
+    mode: "symlink", 
     pattern: "*.xml"
 
 
@@ -145,7 +145,7 @@ process Edgepairs_xml {
 
 process Edgepairs_semsim {
     publishDir "${params.sanityCheckDir}",
-    mode: "${params.publishMode}"
+    mode: "symlink"
     
     cache 'lenient'
     memory '32 GB'
@@ -167,9 +167,9 @@ process Edgepairs_semsim {
 
 process Calculate_min {
     publishDir "${params.sanityCheckDir}",
-    mode: "${params.publishMode}"
-    memory '1 GB'
+    mode: "symlink"
 
+    memory '1 GB'
     input:
         path(edge_pairs_sem_sim)
     output:
