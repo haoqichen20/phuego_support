@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import numpy as np
+import sys
 
 def main():
 	edge_pairs_sem_sim_path = sys.argv[1]
