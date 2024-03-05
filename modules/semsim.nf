@@ -103,7 +103,7 @@ process Allvsall_semsim {
               
     script:
     """
-    java -jar -Xms12288m -Xmx32768m ./app/sml-toolkit-0.9.4c.jar -t sm -xmlconf "$i_node_vs_all_xml"
+    java -jar -Xms12288m -Xmx32768m /app/sml-toolkit-0.9.4c.jar -t sm -xmlconf "$i_node_vs_all_xml"
     """
 }
 
@@ -159,7 +159,7 @@ process Edgepairs_semsim {
               
     script:
     """
-    java -jar -Xms12288m -Xmx32768m ./app/sml-toolkit-0.9.4c.jar -t sm -xmlconf "$edgepairs_xml"
+    java -jar -Xms12288m -Xmx32768m /app/sml-toolkit-0.9.4c.jar -t sm -xmlconf "$edgepairs_xml"
     """
 }
 

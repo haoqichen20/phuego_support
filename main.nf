@@ -40,29 +40,29 @@ workflow {
     inodes_ch = all_nodes_ch.splitCsv(sep: '\t', strip: true)
     Nodes_combination(inodes_ch.combine(all_nodes_ch))
 
-    // // All versus all semantic similarity: 
-    // // create xml
-    // xml_template_ch = Channel.fromPath(params.xml_template_path)
-    // Generate_xml(inodes_ch.merge(Nodes_combination.out[0])
-    //                       .combine(xml_template_ch))
-    // // submit to the java toolkit.
-    // Allvsall_semsim(Generate_xml.out[0].combine(GO_term_parser.out[0])
-    //                                    .combine(Fetch_obo.out[0]))
-    // // Calculate the z_score.
-    // GOterm_zscore(Allvsall_semsim.out[0])
+    // All versus all semantic similarity: 
+    // create xml
+    xml_template_ch = Channel.fromPath(params.xml_template_path)
+    Generate_xml(inodes_ch.merge(Nodes_combination.out[0])
+                          .combine(xml_template_ch))
+    // submit to the java toolkit.
+    Allvsall_semsim(Generate_xml.out[0].combine(GO_term_parser.out[0])
+                                       .combine(Fetch_obo.out[0]))
+    // Calculate the z_score.
+    GOterm_zscore(Allvsall_semsim.out[0])
 
-    // // All existing nodes combinations in the reference and randomized networks.
-    // // Merge the 1000 randomized network into a list.
-    // Node_pairs(network_ch, Generate_random_network.out[0].collect())
+    // All existing nodes combinations in the reference and randomized networks.
+    // Merge the 1000 randomized network into a list.
+    Node_pairs(network_ch, Generate_random_network.out[0].collect())
 
-    // // All existing node combinations semantic similarity:
-    // // create xml
-    // Edgepairs_xml(Node_pairs.out[0], xml_template_ch)
-    // // submit to the java toolkit.
-    // Edgepairs_semsim(Edgepairs_xml.out[0].combine(GO_term_parser.out[0])
-    //                                      .combine(Fetch_obo.out[0]))
-    // // Calculate the minimal semsim of all edge pairs.
-    // Calculate_min(Edgepairs_semsim.out[0])
+    // All existing node combinations semantic similarity:
+    // create xml
+    Edgepairs_xml(Node_pairs.out[0], xml_template_ch)
+    // submit to the java toolkit.
+    Edgepairs_semsim(Edgepairs_xml.out[0].combine(GO_term_parser.out[0])
+                                         .combine(Fetch_obo.out[0]))
+    // Calculate the minimal semsim of all edge pairs.
+    Calculate_min(Edgepairs_semsim.out[0])
 
 
     // // Populate the raw semantic similarity to reference and randomized networks
