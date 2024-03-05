@@ -79,7 +79,7 @@ process Generate_raw_network {
         path(network)
         path(random_networks)
     output:
-        path("./raw/*.txt")
+        path("raw/*.txt")
 
     script:
     """
