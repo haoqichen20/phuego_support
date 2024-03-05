@@ -88,8 +88,15 @@ process Generate_raw_network {
 
 
 process Laplacian_normalization {
-    publishDir "${params.supportDataDir}/networks/${params.semsim_type}_random",
-    mode: "${params.publishMode}"
+    publishDir "${params.supportDataDir}/networks",
+    mode: "${params.publishMode}",
+    saveAs: {filename ->
+                if(filename ==~ /.*empirical.txt/) {
+                    "${params.semsim_type}.txt"
+                } else {
+                    filename.replaceFirst("laplacian/", "${params.semsim_type}_random/")
+                }
+    }
     
     memory '8 GB'
     input:
