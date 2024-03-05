@@ -1,0 +1,48 @@
+<sglib>
+	<opt  threads = "4"  />
+
+	<namespaces>
+		<nm prefix="GO" ref="http://purl.org/obo/owl/GO#" />
+	</namespaces>
+
+	<graphs>    
+		<graph uri="http://bio/"  >    
+			<data>
+				<file format="OBO"   path="go.obo"/>
+				<file format="GAF2"   path="gaf_human.gaf"/>     
+			</data>
+
+			<actions>
+				<action type="REROOTING" root_uri="__FICTIVE__" />
+				<action type="TRANSITIVE_REDUCTION" target="CLASSES" />
+				<action type="TRANSITIVE_REDUCTION" target="INSTANCES" />
+			</actions>
+		</graph>    
+	</graphs>
+
+	<sml module="sm" graph="http://bio/" >
+
+		<opt_module threads="4" 	quiet = "true"/>
+
+
+		<ics>
+			<ic id   = "resnik" flag = "IC_ANNOT_RESNIK_1995"  />
+		</ics>
+		
+		<measures type = "groupwise">
+			<measure   id   = "gic" flag = "SIM_GROUPWISE_DAG_GIC"   ic = "resnik" />
+
+		</measures>
+		
+		
+		<queries id= "query" 
+			type    = "oTOo" 
+			file    = "" 
+			output  = "" 
+			noAnnots = "set=-1.0"
+			notFound = "set=-1.0"
+			uri_prefix = "http://bio/"
+			output_basename = "false" 
+		/>
+	</sml>
+</sglib>
