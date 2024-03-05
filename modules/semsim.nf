@@ -88,6 +88,7 @@ process Allvsall_semsim {
     publishDir "${params.supportDataDir}/sim", 
     mode: "symlink"
 
+    cache 'lenient'
     memory '12 GB'
     input:
         tuple val(i_node),
@@ -145,8 +146,9 @@ process Edgepairs_xml {
 process Edgepairs_semsim {
     publishDir "${params.sanityCheckDir}",
     mode: "${params.publishMode}"
+    
+    cache 'lenient'
     memory '32 GB'
-
     input:
         tuple path(edge_pairs),
               path(edgepairs_xml),
