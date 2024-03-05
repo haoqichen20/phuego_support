@@ -4,12 +4,12 @@ import os,sys
 import numpy as np
 
 def main():
-	f1 = open('semsim.txt', 'w')
-
 	# List only non-hidden files
 	i_node_semsims = [entry for entry in os.listdir('.') if not entry.startswith('.')]
 
-	# Calculate mean & std of each i_node_semsim.
+	# The output file is created after the listing step, so won't be included in i_node_semsims.
+	f1 = open('semsim.txt', 'w')
+	# Calculate mean & std for each node.
 	for i in i_node_semsims:
 		f2=open(i)
 		seq=f2.readline()
