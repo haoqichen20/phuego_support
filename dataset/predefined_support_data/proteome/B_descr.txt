@@ -1,0 +1,1659 @@
+bioplanet_25	BAD phosphorylation regulation
+bioplanet_24	Hypoxia and p53 in the cardiovascular system
+bioplanet_27	BAD phosphorylation mediated by IGF1R signaling
+bioplanet_26	D4-GDI signaling pathway
+bioplanet_21	Nicotinic acetylcholine receptor role in the regulation of apoptosis
+bioplanet_20	Stress induction of HSP regulation
+bioplanet_23	Rb tumor suppressor/checkpoint signaling in response to DNA damage
+bioplanet_22	PTEN-dependent cell cycle arrest and apoptosis
+bioplanet_29	TSP1-induced apoptosis in microvascular endothelial cell
+bioplanet_28	SODD/TNFR1 signaling pathway
+bioplanet_1671	HIF-1 degradation in normoxia
+bioplanet_1670	Fibroblast growth factor receptor pathway
+bioplanet_1673	PI3K class IB pathway in neutrophils
+bioplanet_1672	PI3K class IB pathway
+bioplanet_1675	Interleukin-1 signaling pathway
+bioplanet_1674	Cell differentiation by G alpha (i/o) pathway inferred from mouse Neuro2A model
+bioplanet_1676	Interleukin-1-beta (IL-1b) processing pathway
+bioplanet_1679	G alpha s pathway
+bioplanet_1678	PI3K pathway
+bioplanet_1514	Cyclin D-associated events in G1
+bioplanet_1515	Down syndrome cell adhesion molecule (DSCAM) interactions
+bioplanet_1516	Opening of calcium channels triggered by depolarization of the presynaptic terminal
+bioplanet_1517	Developmental biology
+bioplanet_1510	Cross-presentation of particulate exogenous antigens (phagosomes)
+bioplanet_1511	Cyclin A/B1-associated events during G2/M transition
+bioplanet_1512	ATP-sensitive potassium channels
+bioplanet_1513	Cyclin B2-mediated events
+bioplanet_1518	Diabetes pathways
+bioplanet_1519	Disinhibition of SNARE formation
+bioplanet_1460	Terminal pathway of complement
+bioplanet_1461	AIM2 inflammasome
+bioplanet_1462	NLRP1 inflammasome
+bioplanet_1463	Arylsulfatase activation
+bioplanet_1464	Toll receptor cascades
+bioplanet_1465	Toll-like receptor endosomal trafficking and processing
+bioplanet_1466	GluR2-containing AMPA receptor trafficking
+bioplanet_1467	Transcription
+bioplanet_1468	Mitochondrial promoter transcription
+bioplanet_1469	HIV genome transcription
+bioplanet_808	Carbohydrate metabolism
+bioplanet_809	Folate and pterine metabolism
+bioplanet_804	Tetrasaccharide linker sequence formation in glycosaminoglycan biosynthesis
+bioplanet_805	Association of TriC/CCT with target proteins during biosynthesis
+bioplanet_807	Amino acid metabolism
+bioplanet_800	Post-translational modification: biosynthesis of GPI-anchored proteins
+bioplanet_801	Respiratory electron transport
+bioplanet_802	Purine ribonucleoside monophosphate biosynthesis
+bioplanet_803	Reactions specific to the complex N-glycan biosynthesis pathway
+bioplanet_1086	Proton-coupled monocarboxylate transport
+bioplanet_1087	Organic cation/anion/zwitterion transport
+bioplanet_1084	SLC-mediated transmembrane transport
+bioplanet_1085	Sodium-coupled phosphate cotransporters
+bioplanet_1082	Proton/oligonucleotide cotransporters
+bioplanet_1083	Cation-coupled chloride cotransporters
+bioplanet_1080	Ligand-gated ion channel transport
+bioplanet_1081	Sodium/calcium exchangers
+bioplanet_1088	SLC26 family multifunctional anion exchangers
+bioplanet_1089	Amino acid and oligopeptide SLC transporters
+bioplanet_1248	Glucagon-type ligand receptors
+bioplanet_1249	Hormone ligand-binding G-protein coupled receptors
+bioplanet_1240	FGFR3b ligand binding and activation
+bioplanet_1241	FGFR4 ligand binding and activation
+bioplanet_1242	FRS2-mediated cascade
+bioplanet_1243	Formyl peptide interaction with formyl peptide receptors
+bioplanet_1244	Free fatty acid G-protein coupled receptors
+bioplanet_1245	FRS2-mediated activation
+bioplanet_1246	G-protein-mediated events
+bioplanet_1247	GPCR ligand binding
+bioplanet_248	Double stranded RNA-induced gene expression
+bioplanet_249	E2F1 destruction pathway
+bioplanet_242	Polyadenylation of mRNA
+bioplanet_243	Internal ribosome entry pathway
+bioplanet_240	SUMOylation as a mechanism to modulate CtBP-dependent gene responses
+bioplanet_241	Antisense RNA pathway
+bioplanet_246	Transcriptional activity regulation by PML
+bioplanet_247	PPAR-gamma coactivator role in obesity and thermogenesis
+bioplanet_244	Downregulation of MTA-3 in ER-negative breast tumors
+bioplanet_488	Estrogen receptor signaling pathway
+bioplanet_489	Antigen-activated B-cell receptor generation of second messengers
+bioplanet_480	Phototransduction
+bioplanet_481	Notch signaling pathway
+bioplanet_482	Fanconi anemia pathway
+bioplanet_483	Nucleotide excision repair
+bioplanet_484	Tryptophan metabolism
+bioplanet_485	Sphingolipid metabolism
+bioplanet_486	Fatty acid biosynthesis
+bioplanet_487	Prolactin activation of MAPK signaling
+bioplanet_664	Interferon-gamma signaling pathway
+bioplanet_666	p75 neurotrophin receptor-mediated signaling
+bioplanet_660	Death receptor signaling
+bioplanet_661	G alpha (12/13) signaling events
+bioplanet_662	Polo-like kinase signaling events in the cell cycle
+bioplanet_663	CTLA4 inhibitory signaling
+bioplanet_668	TGF-beta receptor activation of SMADs
+bioplanet_669	TGF-beta receptor signaling in EMT (epithelial to mesenchymal transition)
+bioplanet_118	Ceramide signaling pathway
+bioplanet_119	Signaling pathway from G-protein families
+bioplanet_116	Presenilin action in Notch and Wnt signaling
+bioplanet_117	mTOR signaling pathway
+bioplanet_114	EGF receptor transactivation by GPCRs in cardiac hypertrophy
+bioplanet_115	Bioactive peptide-induced signaling pathway
+bioplanet_112	Phospholipids as signaling intermediaries
+bioplanet_113	Ck1/Cdk5 regulation by type 1 glutamate receptors
+bioplanet_110	PKC-catalyzed phosphorylation of inhibitory phosphoprotein of myosin phosphatase
+bioplanet_111	Calcium signaling by HBx of hepatitis B virus
+bioplanet_50	Lck and Fyn tyrosine kinases in initiation of T cell receptor activation
+bioplanet_51	T cell activation co-stimulatory signal
+bioplanet_52	Chromatin remodeling by hSWI/SNF ATP-dependent complexes
+bioplanet_53	FOSB gene expression and drug abuse
+bioplanet_54	TACI and BCMA stimulation of B cell immune responses
+bioplanet_55	Th1/Th2 differentiation pathway
+bioplanet_56	Tob role in T-cell activation
+bioplanet_57	ADP-ribosylation factor
+bioplanet_58	Protein kinase A (PKA) at the centrosome
+bioplanet_59	BTG family proteins and cell cycle regulation
+bioplanet_1648	Insulin secretion regulation by glucagon-like peptide-1
+bioplanet_1649	Insulin-like growth factor (IGF) activity regulation by insulin-like growth factor binding proteins (IGFBPs)
+bioplanet_1644	Complement cascade regulation
+bioplanet_1645	Gene expression regulation by hypoxia-inducible factor
+bioplanet_1646	Insulin secretion regulation by acetylcholine
+bioplanet_1647	Insulin secretion regulation by fatty acids bound to GPR40 (FFAR1)
+bioplanet_1640	Recruitment of NuMA to mitotic centrosomes
+bioplanet_1641	Recycling of eIF2-GDP complex
+bioplanet_1642	Recycling pathway of cell adhesion molecule L1
+bioplanet_1643	Reduction of cytosolic calcium levels
+bioplanet_1503	Clathrin derived vesicle budding
+bioplanet_1502	Classical Kir channels
+bioplanet_1501	Circadian rhythm
+bioplanet_1500	Cellular response to hypoxia
+bioplanet_1507	Coagulation common pathway
+bioplanet_1506	Cleavage of a damaged pyrimidine
+bioplanet_1505	Cleavage of a damaged purine
+bioplanet_1504	Cleavage of growing transcript in the termination region
+bioplanet_1509	Cooperation of prefoldin and TriC/CCT  in actin and tubulin folding
+bioplanet_1508	Complement cascade
+bioplanet_1479	YAP1- and WWTR1 (TAZ)-stimulated gene expression
+bioplanet_1478	Cytochrome P450 metabolism of xenobiotics
+bioplanet_1477	Voltage-gated potassium channels
+bioplanet_1476	Cytochrome P450 metabolism of vitamins
+bioplanet_1475	Asparagine N-linked glycosylation
+bioplanet_1474	Vitamin A uptake in enterocytes
+bioplanet_1473	Unfolded protein response
+bioplanet_1472	Transmission across chemical synapses
+bioplanet_1471	Translation
+bioplanet_1470	Transcriptional regulation of white adipocyte differentiation
+bioplanet_655	Netrin-mediated signaling events
+bioplanet_306	Bacterial invasion of epithelial cells
+bioplanet_305	Primary immunodeficiency
+bioplanet_304	Graft-versus-host disease
+bioplanet_303	Allograft rejection
+bioplanet_650	CXCR4 signaling pathway
+bioplanet_653	IGF1 receptor signaling through beta-arrestin
+bioplanet_300	Asthma
+bioplanet_879	Proteasome degradation
+bioplanet_878	Heparan sulfate/heparin glycosaminoglycan (HS-GAG) degradation
+bioplanet_871	Fatty acid
+bioplanet_870	Astrocytic glutamate-glutamine uptake and metabolism
+bioplanet_873	Degradation of beta-catenin by the destruction complex
+bioplanet_872	Alpha-linolenic (omega3) and linoleic (omega6) acid metabolism
+bioplanet_875	Autodegradation of Cdh1 by Cdh1-APC/C
+bioplanet_874	Degradation of cysteine and homocysteine
+bioplanet_877	Chondroitin sulfate/dermatan sulfate degradation
+bioplanet_876	Heme degradation
+bioplanet_1095	Endosomal sorting complex required for transport (ESCRT) pathway
+bioplanet_1094	Ammonium transport mediated by Rhesus glycoproteins
+bioplanet_1097	Cytosolic sulfonation of small molecules
+bioplanet_1096	COPII-mediated vesicle transport
+bioplanet_1091	Lipid digestion
+bioplanet_1090	Bile salt and organic anion SLC transporters
+bioplanet_1093	Facilitative sodium-independent glucose transporters
+bioplanet_1092	Sodium/chloride-dependent neurotransmitter transporters
+bioplanet_1099	Class II glucose transporters
+bioplanet_1098	Sodium-coupled sulphate
+bioplanet_1257	Nucleotide-like (purinergic) G-protein coupled receptors
+bioplanet_1256	Activation of TRKA receptors
+bioplanet_1255	Activation of PKB
+bioplanet_1254	MEK activation
+bioplanet_1253	Lysosphingolipid and lysophosphatidic acid (LPA) G-protein coupled receptors
+bioplanet_1252	Leukotriene receptors
+bioplanet_1251	Klotho-mediated ligand binding
+bioplanet_1250	Insulin receptor substrate (IRS) activation
+bioplanet_1259	Binding of orexin and neuropeptides FF and QRFP to their receptors
+bioplanet_1258	Opsins
+bioplanet_581	TWEAK signaling pathway
+bioplanet_580	SREBP signaling
+bioplanet_583	Visual signal transduction: rods
+bioplanet_582	Visual signal transduction: cones
+bioplanet_584	p75 neurotrophin receptor signaling via NF-kB
+bioplanet_587	T cell signal transduction
+bioplanet_586	Opioid signaling
+bioplanet_589	Nef-induced signal transduction
+bioplanet_588	Leptin signaling pathway
+bioplanet_277	Erythrocyte differentiation pathway
+bioplanet_276	Alpha-hemoglobin stabilizing enzyme (AHSP) pathway
+bioplanet_907	Activation of NF-kappaB in B cells
+bioplanet_274	TGF-beta signaling pathway
+bioplanet_273	Nuclear receptors in lipid metabolism and toxicity
+bioplanet_272	Signaling of hepatocyte growth factor receptor
+bioplanet_271	Integrin signaling pathway
+bioplanet_270	RNA polymerase III transcription
+bioplanet_909	EGFR interaction with phospholipase C-gamma
+bioplanet_908	Activation of RAS in B cells
+bioplanet_279	Pathways in cancer
+bioplanet_278	Bone mineralization regulation
+bioplanet_475	Long-term potentiation
+bioplanet_474	Intestinal immune network for IgA production
+bioplanet_477	Long-term depression
+bioplanet_476	Neurotrophin signaling pathway
+bioplanet_471	Fc epsilon receptor I signaling pathway
+bioplanet_470	T cell receptor signaling pathway
+bioplanet_473	Leukocyte transendothelial migration
+bioplanet_472	Fc gamma receptor-mediated phagocytosis
+bioplanet_479	Taste transduction
+bioplanet_478	Olfactory transduction
+bioplanet_299	Maturity onset diabetes of the young
+bioplanet_298	Type 1 diabetes mellitus
+bioplanet_295	Dilated cardiomyopathy
+bioplanet_294	Arrhythmogenic right ventricular cardiomyopathy (ARVC)
+bioplanet_297	Type 2 diabetes mellitus
+bioplanet_296	Viral myocarditis
+bioplanet_291	Acute myeloid leukemia
+bioplanet_290	Chronic myeloid leukemia
+bioplanet_293	Non-small cell lung cancer
+bioplanet_292	Small cell lung cancer
+bioplanet_611	Interferon signaling
+bioplanet_610	Downstream signaling events Of B cell receptor (BCR)
+bioplanet_613	Osteoclast signaling
+bioplanet_612	Adrenaline signaling through alpha-2 adrenergic receptor
+bioplanet_615	Osteoblast signaling
+bioplanet_614	RANKL signaling pathway
+bioplanet_617	ERBB2/ERBB3 signaling events
+bioplanet_616	FoxO family signaling
+bioplanet_619	FasL/CD95L signaling
+bioplanet_618	Thromboxane signaling through TP receptor
+bioplanet_129	AHR signal transduction pathway
+bioplanet_128	Interleukin-17 signaling pathway
+bioplanet_123	TNFR2 signaling pathway
+bioplanet_122	TNF/stress-related signaling
+bioplanet_121	PDGFA signaling pathway
+bioplanet_120	Cytokines and inflammatory response
+bioplanet_125	CARM1 transcriptional regulation by protein methylation
+bioplanet_124	TPO signaling pathway
+bioplanet_729	TRAF6-mediated IRF7 activation in TLR7/8 or 9 signaling
+bioplanet_728	Advanced glycosylation endproduct receptor signaling
+bioplanet_725	Second messenger role in netrin-1 signaling
+bioplanet_724	Angiopoietin receptor Tie2-mediated signaling
+bioplanet_727	Neurotrophic factor-mediated Trk receptor signaling
+bioplanet_726	Serotonin receptor 2 and ELK-SRF/GATA4 signaling
+bioplanet_721	Serotonin receptor 4/6/7 and NR3C signaling
+bioplanet_720	Negative regulators of RIG-I/MDA5 signaling
+bioplanet_723	Nuclear beta-catenin signaling and target gene transcription regulation
+bioplanet_722	Calcineurin-dependent NFAT signaling role in lymphocytes
+bioplanet_43	Activation of Src by protein tyrosine phosphatase alpha
+bioplanet_42	Actions of nitric oxide in the heart
+bioplanet_41	Basic mechanisms of SUMOylation
+bioplanet_40	Inhibition of platelet activation by aspirin
+bioplanet_47	NO2-dependent IL-12 pathway in NK cells
+bioplanet_46	Selective expression of chemokine receptors during T-cell polarization
+bioplanet_45	Y branching of actin filaments
+bioplanet_44	AKAP95 role in mitosis and chromosome dynamics
+bioplanet_49	4-1BB-dependent immune response
+bioplanet_48	Nerve growth factor (NGF) pathway
+bioplanet_884	APC/C- and Cdc20-mediated degradation of Nek2A
+bioplanet_885	Cell-cell communication
+bioplanet_916	Negative regulation of the PI3K/Akt network
+bioplanet_917	PI3K cascade
+bioplanet_914	AKT phosphorylation of cytosolic targets
+bioplanet_1659	Response of Mycobacterium tuberculosis to phagocytosis
+bioplanet_1658	Resolution of abasic sites (AP sites)
+bioplanet_1653	Gene expression regulation in endocrine-committed (NEUROG3+) progenitor cells
+bioplanet_1652	Gene expression regulation in early pancreatic precursor cells
+bioplanet_1651	Cytoskeletal remodeling regulation and cell spreading by IPP complex components
+bioplanet_1650	Pancreatic beta-cell development regulation
+bioplanet_1657	Resolution of AP sites via the single-nucleotide replacement pathway
+bioplanet_1656	Fanconi anemia pathway regulation
+bioplanet_1655	Alpha defensins
+bioplanet_1654	Gene expression regulation in late stage pancreatic bud precursor cells
+bioplanet_910	Phospholipase C-mediated cascade
+bioplanet_911	EGFR transactivation by gastrin
+bioplanet_1138	Messenger RNA processing
+bioplanet_1139	MicroRNA regulation of DNA damage response
+bioplanet_1408	Licensing factor removal from origins
+bioplanet_1409	Mitotic prometaphase
+bioplanet_882	Keratan sulfate degradation
+bioplanet_1402	Beta-oxidation of lauroyl-CoA to decanoyl-CoA
+bioplanet_1403	Mitotic metaphase/anaphase transition
+bioplanet_1400	Nef-mediates down modulation of cell surface receptors by recruiting them to clathrin adapters
+bioplanet_1401	Glycoprotein hormones
+bioplanet_1406	Tat-mediated elongation of the HIV-1 transcript
+bioplanet_1407	Tat-mediated HIV-1 elongation arrest and recovery
+bioplanet_1404	Cap-dependent translation initiation
+bioplanet_1405	Notch-HLH transcription pathway
+bioplanet_883	Ubiquitin-mediated degradation of phosphorylated Cdc25A
+bioplanet_1130	Transfer RNA aminoacylation
+bioplanet_1131	Messenger RNA decay by 3' to 5' exoribonuclease
+bioplanet_1316	CDC42 activity regulation
+bioplanet_1317	ATM pathway
+bioplanet_1314	RhoA activity regulation
+bioplanet_1315	p38-alpha and p38-beta regulation
+bioplanet_1312	Myc active pathway
+bioplanet_1313	Arf6 integrin-mediated signaling pathway
+bioplanet_1310	S1P/S1P4 pathway
+bioplanet_1311	FRA pathway
+bioplanet_1318	S1P/S1P1 pathway
+bioplanet_1319	Telomerase regulation
+bioplanet_868	Glucocorticoid and mineralcorticoid metabolism
+bioplanet_869	Chondroitin sulfate/dermatan sulfate metabolism
+bioplanet_862	Vitamin B2 (riboflavin) metabolism
+bioplanet_863	Bile acid and bile salt metabolism
+bioplanet_860	Vitamin D (calciferol) metabolism
+bioplanet_861	Abacavir transport and metabolism
+bioplanet_866	Vitamin B5 (pantothenate) metabolism
+bioplanet_867	Heparan sulfate/heparin glycosaminoglycan (HS-GAG) metabolism
+bioplanet_864	Keratan sulfate/keratin metabolism
+bioplanet_865	Vitamin A and carotenoid metabolism
+bioplanet_1222	CREB phosphorylation
+bioplanet_1223	Calcitonin-like ligand receptors
+bioplanet_1220	Beta-klotho-mediated ligand binding
+bioplanet_1221	Axonogenesis regulation by p75 neurotrophin receptor
+bioplanet_1226	Class B GPCRs (secretin family receptors)
+bioplanet_1224	Calmodulin activation of PDE 1
+bioplanet_1225	Binding of chemokines to chemokine receptors
+bioplanet_1228	Downregulation of SMAD2/3-SMAD4 transcriptional activity
+bioplanet_1229	ERK activation
+bioplanet_592	Aurora B signaling
+bioplanet_593	PI3K/AKT signalling
+bioplanet_590	Nuclear signaling by ErbB4
+bioplanet_591	Wnt/LRP6 signaling
+bioplanet_596	Immune system signaling by interferons
+bioplanet_597	Glucagon signaling in metabolic regulation
+bioplanet_594	Thrombin signaling through protease-activated receptors
+bioplanet_888	Regulation of transcription by NOTCH1 intracellular domain
+bioplanet_598	Netrin-1 signaling
+bioplanet_599	TGF-beta signaling in gastrointestinal stem cells
+bioplanet_260	Spliceosome
+bioplanet_261	RNA degradation
+bioplanet_262	Protein export
+bioplanet_263	Ubiquitin-mediated proteolysis
+bioplanet_264	SNARE interactions in vesicular transport
+bioplanet_265	Protein processing in the endoplasmic reticulum
+bioplanet_266	Base excision repair
+bioplanet_267	Mismatch repair
+bioplanet_268	Homologous recombination
+bioplanet_269	Non-homologous end-joining (NHEJ) pathway
+bioplanet_918	PI3K/AKT activation
+bioplanet_919	Glycoprotein VI-mediated activation cascade
+bioplanet_466	RIG-I-like receptor signaling pathway
+bioplanet_467	Cytosolic DNA-sensing pathway
+bioplanet_464	Antigen processing and presentation
+bioplanet_465	NOD signaling pathway
+bioplanet_462	Chemokine signaling pathway
+bioplanet_463	Complement and coagulation cascades
+bioplanet_460	Proximal tubule bicarbonate reclamation
+bioplanet_461	Collecting duct acid secretion
+bioplanet_1137	Messenger RNA splicing: major pathway
+bioplanet_1134	Messenger RNA editing
+bioplanet_1135	Messenger RNA splicing: minor pathway
+bioplanet_1132	Messenger RNA decay by 5' to 3' exoribonuclease
+bioplanet_1133	Messenger RNA capping
+bioplanet_468	Hematopoietic cell lineage
+bioplanet_469	Natural killer cell-mediated cytotoxicity
+bioplanet_288	Melanoma
+bioplanet_289	Bladder cancer
+bioplanet_286	Thyroid cancer
+bioplanet_287	Basal cell carcinoma
+bioplanet_284	Glioma
+bioplanet_285	Prostate cancer
+bioplanet_282	Pancreatic cancer
+bioplanet_283	Endometrial cancer
+bioplanet_280	Colorectal cancer
+bioplanet_281	Renal cell carcinoma
+bioplanet_602	EGF/EGFR signaling pathway
+bioplanet_603	Plexin D1 signaling
+bioplanet_600	TGF-beta signaling in development
+bioplanet_601	Epstein-Barr virus LMP1 signaling
+bioplanet_606	CD40/CD40L signaling
+bioplanet_607	E-cadherin signaling events
+bioplanet_604	TNF-alpha signaling pathway
+bioplanet_605	G-protein signaling pathways
+bioplanet_608	PDGFB signaling pathway
+bioplanet_609	N-cadherin signaling events
+bioplanet_135	IGF1 signaling pathway
+bioplanet_136	Interleukin-10 anti-inflammatory signaling pathway
+bioplanet_130	Anthrax toxin mechanism of action
+bioplanet_132	fMLP induced chemokine gene expression in HMC-1 cells
+bioplanet_133	Interferon-alpha signaling pathway
+bioplanet_138	Interleukin-18 signaling pathway
+bioplanet_139	Interleukin-22 soluble receptor signaling pathway
+bioplanet_738	Phosphatidylethanolamine biosynthesis
+bioplanet_739	Phosphatidylglycerol biosynthesis
+bioplanet_736	Phosphatidic acid biosynthesis
+bioplanet_737	Phosphatidylcholine biosynthesis
+bioplanet_734	Nucleotide di- and triphosphate biosynthesis and interconversion
+bioplanet_735	GDP-mannose biosynthesis
+bioplanet_732	Nucleotide-binding domain
+bioplanet_733	Bile acids and bile salt biosynthesis
+bioplanet_730	G-protein-independent seven transmembrane receptor signaling
+bioplanet_731	Urokinase-type plasminogen activator (uPA) and uPAR-mediated signaling
+bioplanet_78	Beta-arrestins in GPCR desensitization
+bioplanet_79	Beta-arrestin-dependent recruitment of Src kinases in GPCR signaling
+bioplanet_76	Attenuation of GPCR signaling
+bioplanet_77	Stress fiber formation mediated by Rho-selective guanine exchange factor AKAP13
+bioplanet_74	Tumor suppressor Arf inhibits ribosomal biogenesis
+bioplanet_75	MAL role in Rho-mediated activation of SRF
+bioplanet_72	Sonic Hedgehog (SHH) receptor PTCH1 regulation of cell cycle
+bioplanet_73	Splicing regulation through Sam68
+bioplanet_70	Influence of Ras and Rho proteins on G1 to S transition
+bioplanet_71	Cyclins and cell cycle regulation
+bioplanet_898	Generation of second messenger molecules
+bioplanet_1419	Fibroblast growth factor 1
+bioplanet_1418	Interleukin-1 regulation of extracellular matrix
+bioplanet_1411	Activation of PUMA and translocation to mitochondria
+bioplanet_1410	von Willebrand factor (vWF) interaction with collagen
+bioplanet_1413	T cell receptor regulation of apoptosis
+bioplanet_1415	Ghrelin pathway
+bioplanet_1414	Oncostatin M
+bioplanet_1417	Corticotropin releasing hormone pathway
+bioplanet_1305	Androgen receptor proteolysis and transcription regulation
+bioplanet_1304	S1P/S1P3 pathway
+bioplanet_1306	Regulation of NFAT transcription factors
+bioplanet_1301	Integrin family cell surface interactions
+bioplanet_1300	HIF-2-alpha transcription factor network
+bioplanet_1303	Beta-3 integrin cell surface interactions
+bioplanet_1302	Alpha-E beta-7 integrin cell surface interactions
+bioplanet_1309	Alpha-V beta-3 integrin/OPN pathway
+bioplanet_1308	Ephrin receptor B forward pathway
+bioplanet_857	Vitamin C (ascorbate) metabolism
+bioplanet_856	Codeine and morphine metabolism
+bioplanet_855	Ganglio sphingolipid metabolism
+bioplanet_854	Vitamin B1 (thiamin) metabolism
+bioplanet_853	Lipid metabolism regulation by peroxisome proliferator-activated receptor alpha (PPAR-alpha)
+bioplanet_852	Peroxisomal lipid metabolism
+bioplanet_851	Glycosphingolipid metabolism
+bioplanet_850	Glycosaminoglycan metabolism
+bioplanet_859	Alanine and aspartate metabolism
+bioplanet_858	Integration of energy metabolism
+bioplanet_1231	ERK inactivation
+bioplanet_1230	ERK1 activation
+bioplanet_1233	Eicosanoid ligand-binding G-protein coupled receptors
+bioplanet_1232	PIP2 hydrolysis
+bioplanet_1235	FGFR ligand binding and activation
+bioplanet_1234	Energy-dependent regulation of mTOR by LKB1-AMPK
+bioplanet_1237	FGFR1c and klotho ligand binding and activation
+bioplanet_1236	FGFR1b ligand binding and activation
+bioplanet_1239	FGFR3 ligand binding and activation
+bioplanet_1238	FGFR2b ligand binding and activation
+bioplanet_923	Semaphorin interactions
+bioplanet_922	Platelet aggregation (plug formation)
+bioplanet_921	CD28 co-stimulation
+bioplanet_920	Sema4D-mediated inhibition of cell attachment and migration
+bioplanet_927	Cell cycle negative regulation by p75 neurotrophin receptor
+bioplanet_926	Activation of IRF3/IRF7 mediated by TBK1/IKK epsilon
+bioplanet_925	IKK complex recruitment mediated by RIP1
+bioplanet_924	TRAF6-mediated induction of TAK1 complex
+bioplanet_929	Innate immune system
+bioplanet_928	Regulated proteolysis of p75 neurotrophin receptor
+bioplanet_453	GnRH signaling pathway
+bioplanet_452	Insulin signaling pathway
+bioplanet_451	Renin-angiotensin system
+bioplanet_450	PPAR signaling pathway
+bioplanet_1129	RNA polymerase II C-terminal domain phosphorylation and interaction with capping enzyme
+bioplanet_1128	RNA polymerase III abortive and retractive initiation
+bioplanet_455	Melanogenesis
+bioplanet_454	Progesterone-mediated oocyte maturation
+bioplanet_1125	RNA polymerase III transcription initiation From type 3 promoter
+bioplanet_1124	RNA polymerase III transcription initiation from type 2 promoter
+bioplanet_1127	RNA polymerase II promoter escape
+bioplanet_458	Aldosterone-regulated sodium reabsorption
+bioplanet_1121	RNA polymerase I transcription
+bioplanet_1120	RNA polymerase I transcription initiation
+bioplanet_1123	RNA polymerase III transcription termination
+bioplanet_1122	RNA polymerase II transcription
+bioplanet_638	Interleukin-23-mediated signaling events
+bioplanet_637	Alpha-M beta-2 integrin signaling
+bioplanet_636	LPA4-mediated signaling events
+bioplanet_635	Interleukin-12-mediated signaling events
+bioplanet_634	Interleukin-27-mediated signaling events
+bioplanet_633	EPO receptor signaling
+bioplanet_632	Kit receptor signaling pathway
+bioplanet_631	Gastrin-CREB signaling pathway via PKC and MAPK
+bioplanet_630	G beta-gamma signaling through PI3K gamma
+bioplanet_147	Signal transduction through IL-1R
+bioplanet_146	Interleukin-2 receptor beta chain in T cell activation
+bioplanet_149	Melanocyte development and pigmentation pathway
+bioplanet_148	Erythropoietin-mediated neuroprotection through NF-kB
+bioplanet_709	Interleukin-3
+bioplanet_708	PKA activation in glucagon signaling
+bioplanet_703	p75 neurotrophin receptor-mediated signaling
+bioplanet_702	Apoptosis modulation and signaling
+bioplanet_701	Abl role in Robo-Slit signaling
+bioplanet_700	Interleukin receptor SHC signaling
+bioplanet_707	Activated NOTCH1 signaling in the nucleus
+bioplanet_706	Angiotensin II-stimulated signaling through G-proteins and beta-arrestin
+bioplanet_705	Recruitment of repair and signaling proteins to double-strand breaks
+bioplanet_704	Netrin mediated repulsion signals
+bioplanet_69	p27 phosphorylation regulation during cell cycle progression
+bioplanet_68	Cell cycle progression regulation by PLK3
+bioplanet_61	Control of cell cycle and breast tumor growth by estrogen-responsive protein Efp
+bioplanet_60	Cdc25 and Chk1 regulatory pathway in response to DNA damage
+bioplanet_63	Cell cycle: G2/M checkpoint
+bioplanet_62	Cell cycle: G1/S checkpoint
+bioplanet_65	Ran role in mitotic spindle regulation
+bioplanet_64	CDK regulation of DNA replication
+bioplanet_67	Stathmin and breast cancer resistance to antimicrotubule agents
+bioplanet_66	Telomeres
+bioplanet_1424	Gastrin pathway
+bioplanet_1425	Interleukin-4 regulation of apoptosis
+bioplanet_1426	Interleukin-5 regulation of apoptosis
+bioplanet_1427	Interleukin-6 regulation of target genes
+bioplanet_1420	RAGE pathway
+bioplanet_1421	Interleukin-2 signaling pathway
+bioplanet_1422	Interleukin-11 pathway
+bioplanet_1423	Interleukin-3 regulation of hematopoietic cells
+bioplanet_1428	Interleukin-7 interactions in immune response
+bioplanet_1330	C-Myc pathway
+bioplanet_1331	Interleukin-2/PI3K pathway
+bioplanet_1332	p53 signaling pathway
+bioplanet_1333	Androgen receptor regulation of biosynthesis and transcription
+bioplanet_1334	E-cadherin nascent AJ-like junctions pathway
+bioplanet_1335	Integrin beta-4 pathway
+bioplanet_1337	Integrins in angiogenesis
+bioplanet_1339	RXR/VDR pathway
+bioplanet_567	Interleukin-5 signaling pathway
+bioplanet_566	S6K1 signaling
+bioplanet_840	One-carbon metabolism
+bioplanet_842	Ketone body metabolism
+bioplanet_843	Lipoprotein metabolism
+bioplanet_844	Vitamin B12 metabolism
+bioplanet_845	Phospholipid metabolism
+bioplanet_846	Aflatoxin B1 metabolism
+bioplanet_847	Urea cycle and metabolism of amino groups
+bioplanet_848	Benzo(a)pyrene metabolism
+bioplanet_849	Sulfur amino acid metabolism
+bioplanet_568	AMPK signaling
+bioplanet_1208	Defensins
+bioplanet_1209	Serotonin receptors
+bioplanet_1204	Unblocking of NMDA receptor
+bioplanet_1205	Immunoregulatory interactions between a lymphoid and a non-lymphoid cell
+bioplanet_1206	MHC class II antigen presentation
+bioplanet_1207	Gene expression regulation in pancreatic beta cells
+bioplanet_1200	Activation of NOXA and translocation to mitochondria
+bioplanet_1201	Activation of BH3-only proteins
+bioplanet_1202	CREB phosphorylation through the activation of CaMKK
+bioplanet_1203	Acetylcholine binding and downstream events
+bioplanet_938	Galactose catabolism
+bioplanet_934	Histidine catabolism
+bioplanet_935	Lysine catabolism
+bioplanet_936	Phenylalanine and tyrosine catabolism
+bioplanet_937	Digestion of dietary carbohydrate
+bioplanet_930	Reversible hydration of carbon dioxide
+bioplanet_931	Tryptophan catabolism
+bioplanet_932	Urea cycle
+bioplanet_933	Branched-chain amino acid catabolism
+bioplanet_448	Gastric acid secretion
+bioplanet_449	Pancreatic secretion
+bioplanet_444	Cardiac muscle contraction
+bioplanet_445	Vascular smooth muscle contraction
+bioplanet_446	Dorso-ventral axis formation
+bioplanet_447	Salivary secretion
+bioplanet_440	Endocytotic role of NDK
+bioplanet_441	Deregulation of CDK5 in Alzheimer's disease
+bioplanet_442	Synaptic proteins at the synaptic junction
+bioplanet_443	Prion pathway
+bioplanet_1118	Antigen presentation: folding
+bioplanet_1119	RNA polymerase I promoter opening
+bioplanet_1110	Extracellular matrix organization
+bioplanet_1111	Beta-catenin phosphorylation cascade
+bioplanet_1112	Activation of matrix metalloproteinases
+bioplanet_1113	HIV factor interactions with host
+bioplanet_1114	Dopamine clearance from the synaptic cleft
+bioplanet_1115	Reuptake of GABA
+bioplanet_1116	Cyclin A-Cdk2-associated events at S phase entry
+bioplanet_1117	Neurotransmitter release cycle
+bioplanet_628	BMP receptor signaling
+bioplanet_629	Interleukin-6 signaling pathway
+bioplanet_620	G alpha (i) signaling events
+bioplanet_621	G alpha (s) signaling events
+bioplanet_622	G alpha (z) signaling events
+bioplanet_623	Osteopontin signaling
+bioplanet_624	Interleukin-4 signaling pathway
+bioplanet_152	Skeletal myogenesis control by HDAC and calcium/calmodulin-dependent kinase (CaMK)
+bioplanet_153	Keratinocyte differentiation
+bioplanet_150	Calcineurin in effects in keratinocyte differentiation
+bioplanet_151	Gamma-secretase-mediated ErbB4 signaling pathway
+bioplanet_156	Sonic Hedgehog (Shh) pathway
+bioplanet_157	Agrin in postsynaptic differentiation
+bioplanet_154	Progesterone-initiated oocyte maturation
+bioplanet_158	Spermatogenesis regulation by CREM
+bioplanet_159	Signal-dependent regulation of myogenesis by corepressor MITR
+bioplanet_714	Downregulation of ERBB2-ERBB3 signaling
+bioplanet_715	Serotonin receptor 2 and STAT3 signaling
+bioplanet_716	Retinoic acid receptor-mediated signaling
+bioplanet_717	Toll-like receptor signaling pathway regulation
+bioplanet_710	Negative regulation of FGFR signaling
+bioplanet_711	Natural killer cell receptor signaling pathway
+bioplanet_713	Seven transmembrane receptor signaling through beta-arrestin
+bioplanet_718	Plasma membrane estrogen receptor signaling
+bioplanet_719	GRB2-SOS provides linkage to MAPK signaling for integrins
+bioplanet_94	MAP kinase signaling pathway
+bioplanet_95	Nitric oxide signaling pathway
+bioplanet_97	PELP1 modulation of estrogen receptor activity
+bioplanet_90	ERBB2 role in signal transduction and oncology
+bioplanet_91	Skeletal muscle hypertrophy is regulated via AKT/mTOR pathway
+bioplanet_92	Ion channel and phorbal esters signaling pathway
+bioplanet_93	Reversal of insulin resistance by leptin
+bioplanet_98	Activation of PKC through G-protein coupled receptors
+bioplanet_99	Phospholipase C delta-1 interactions in phospholipid-associated cell signaling
+bioplanet_1680	G alpha q pathway
+bioplanet_1682	Estrogen receptor transcription factor targets
+bioplanet_1683	Tumor necrosis factor (TNF) pathway
+bioplanet_1684	G alpha i pathway
+bioplanet_1686	Interleukin-13 (IL13) pathway
+bioplanet_1687	cAMP cell motility pathway inferred from amoeba model
+bioplanet_1688	G alpha 12 pathway
+bioplanet_1689	Differentiation pathway in PC12 cells
+bioplanet_1758	Amino acid conjugation of benzoic acid
+bioplanet_1756	Class C GPCRs (metabotropic glutamate and pheromone receptors)
+bioplanet_1757	Hypertrophy pathway
+bioplanet_1754	Endochondral ossification
+bioplanet_1755	Cytoplasmic ribosomal proteins
+bioplanet_1752	Inflammatory response pathway
+bioplanet_1753	Class A GPCRs (rhodopsin-like)
+bioplanet_1750	Statin pathway
+bioplanet_1433	TSH regulation of gene expression
+bioplanet_1432	Leptin influence on immune response
+bioplanet_1431	RANKL regulation of apoptosis and immune response
+bioplanet_1430	Interleukin-9 regulation of target genes
+bioplanet_1436	TWEAK regulation of gene expression
+bioplanet_1435	FSH regulation of apoptosis
+bioplanet_1434	Thymic stromal lymphopoietin (TSLP) pathway
+bioplanet_1439	ID regulation of gene expression
+bioplanet_1438	EGFR1 pathway
+bioplanet_1329	Rapid glucocorticoid receptor pathway
+bioplanet_1328	T cell receptor/Ras pathway
+bioplanet_1327	Polo-like kinase 1 (PLK1) pathway
+bioplanet_1326	IGF1 pathway
+bioplanet_1325	PIK3C1/B pathway
+bioplanet_1324	Arf6 vesicle-mediated transport
+bioplanet_1323	Validated nuclear estrogen receptor beta network
+bioplanet_1322	Alpha-9 beta-1 integrin pathway
+bioplanet_1321	Regular glucocorticoid receptor pathway
+bioplanet_1320	HNF3B pathway
+bioplanet_1219	Vasopressin-like receptors
+bioplanet_1218	Arachidonate production from diacylglycerol
+bioplanet_1213	Adrenoceptors
+bioplanet_1212	Muscarinic acetylcholine receptors
+bioplanet_1211	Histamine receptors
+bioplanet_1210	Dopamine receptors
+bioplanet_1217	Transcriptional activity of SMAD2/SMAD3-SMAD4 heterotrimer
+bioplanet_1216	Tachykinin receptors bind tachykinins
+bioplanet_1215	NGF-independant TRKA activation
+bioplanet_1214	Axonal growth stimulation
+bioplanet_949	Pyrimidine salvage reactions
+bioplanet_948	Pyrimidine catabolism
+bioplanet_941	Mitochondrial protein import
+bioplanet_940	Methionine salvage pathway
+bioplanet_943	Purine salvage
+bioplanet_942	Purine catabolism
+bioplanet_945	Pyruvate dehydrogenase (PDH) complex regulation
+bioplanet_944	Glycogen breakdown (glycogenolysis)
+bioplanet_947	Interconversion of 2-oxoglutarate and 2-hydroxyglutarate
+bioplanet_439	Gamma-aminobutyric acid receptor life cycle
+bioplanet_438	Blockade of neurotransmitter release by botulinum toxin
+bioplanet_431	Mechanism of protein import into the nucleus
+bioplanet_430	Shuttle for transfer of acetyl groups from mitochondria to the cytosol
+bioplanet_433	Rab GTPases mark targets in the endocytotic machinery
+bioplanet_432	Platelet amyloid precursor protein pathway
+bioplanet_435	Fibrinolysis pathway
+bioplanet_434	Prothrombin activation intrinsic pathway
+bioplanet_437	Generation of amyloid beta-peptide by PS1
+bioplanet_436	Anandamide metabolism
+bioplanet_1107	PTM: gamma carboxylation
+bioplanet_1106	Dietary sterol trafficking
+bioplanet_1105	Chemiosmotic coupling formation of ATP
+bioplanet_1104	Zinc efflux and compartmentalization by the SLC30 family
+bioplanet_1103	Digestion of dietary lipid
+bioplanet_1102	Tricarboxylic acid (TCA) cycle and respiratory electron transport
+bioplanet_1101	Transferrin endocytosis and recycling
+bioplanet_1100	Zinc influx into cells by the SLC39 gene family
+bioplanet_1109	Sulfide oxidation to sulfate
+bioplanet_1108	Hormone-sensitive lipase (HSL)-mediated triacylglycerol hydrolysis
+bioplanet_387	Glycosaminoglycan biosynthesis: heparan sulfate
+bioplanet_386	Glycosaminoglycan biosynthesis: keratan sulfate
+bioplanet_385	Glycosaminoglycan biosynthesis: chondroitin sulfate
+bioplanet_384	Glycosaminoglycan degradation
+bioplanet_383	O-mannosyl glycan biosynthesis
+bioplanet_382	O-glycan biosynthesis
+bioplanet_381	Other glycan degradation
+bioplanet_380	N-glycan biosynthesis
+bioplanet_389	Glycosphingolipid biosynthesis: globo series
+bioplanet_388	Glycosphingolipid biosynthesis: lacto and neolacto series
+bioplanet_545	BMP signaling pathway in stem cells
+bioplanet_544	NGF signaling via TRKA from the plasma membrane
+bioplanet_547	Fas signaling pathway
+bioplanet_546	Fas signaling pathway in hepatocytes
+bioplanet_541	ADP signalling through P2Y purinoceptor 1
+bioplanet_540	FGF signaling pathway
+bioplanet_542	ADP signalling through P2Y purinoceptor 12
+bioplanet_893	Commissural axon pathfinding regulation by Slit and Robo
+bioplanet_892	Activation of Rac
+bioplanet_891	Inactivation of Cdc42 and Rac
+bioplanet_890	Axon guidance
+bioplanet_549	BMP signaling and regulation
+bioplanet_548	Fas signaling pathway in cardiomyocytes
+bioplanet_895	Neurophilin interactions with VEGF and VEGF receptor
+bioplanet_894	Adaptive immune system
+bioplanet_826	Creatine metabolism
+bioplanet_369	Starch and sucrose metabolism
+bioplanet_368	Ascorbate and aldarate metabolism
+bioplanet_827	Abacavir metabolism
+bioplanet_365	Pentose and glucuronate interconversions
+bioplanet_364	Pentose phosphate pathway
+bioplanet_367	Galactose metabolism
+bioplanet_366	Fructose and mannose metabolism
+bioplanet_361	Butirosin and neomycin biosynthesis
+bioplanet_360	Caffeine metabolism
+bioplanet_363	Tricarboxylic acid (TCA) cycle
+bioplanet_362	Glycolysis and gluconeogenesis
+bioplanet_825	Glycine metabolism
+bioplanet_822	Energy metabolism
+bioplanet_1069	Organic anion transporters
+bioplanet_820	Phosphatidylinositol metabolism
+bioplanet_821	Iron metabolism in placenta
+bioplanet_761	Serine biosynthesis
+bioplanet_1064	Ion channel transport
+bioplanet_763	Heparan sulfate/heparin glycosaminoglycan (HS-GAG) biosynthesis
+bioplanet_762	Carnitine biosynthesis
+bioplanet_765	Amino acid biosynthesis and interconversion (transamination)
+bioplanet_764	Vitamin D biosynthesis
+bioplanet_767	Eicosanoid biosynthesis
+bioplanet_1065	Bicarbonate transporters
+bioplanet_769	Collagen biosynthesis and modifying enzymes
+bioplanet_768	Androgen biosynthesis
+bioplanet_87	Corticosteroids and cardioprotection
+bioplanet_85	Neuroregulin receptor degredation protein-1 controls ErbB3 receptor recycling
+bioplanet_84	Support of platelet aggregation by Eph kinases and ephrins
+bioplanet_83	MAP kinase pathway regulation through dual specificity phosphatases
+bioplanet_82	Cystic fibrosis transmembrane conductance regulator (CFTR) and beta 2 adrenergic receptor (b2AR) pathway
+bioplanet_81	CBL-mediated ligand-induced downregulation of EGF receptors
+bioplanet_80	Calcium/calmodulin-dependent protein kinase activation
+bioplanet_89	Inhibition of cellular proliferation by Gleevec
+bioplanet_88	Growth hormone receptor signaling
+bioplanet_828	Abnormal metabolism in phenylketonuria
+bioplanet_829	Pyruvate metabolism and citric acid (TCA) cycle
+bioplanet_169	NF-kappaB signaling pathway
+bioplanet_168	NFAT involvement in hypertrophy of the heart
+bioplanet_167	Eukaryotic protein translation
+bioplanet_166	eIF2 regulation
+bioplanet_165	MAP kinase inactivation of SMRT corepressor
+bioplanet_164	CARM1 and regulation of the estrogen receptor
+bioplanet_163	Oxidative stress-induced gene expression via Nrf2
+bioplanet_162	Basic mechanism of action of PPAR-alpha
+bioplanet_161	Proteolysis and signaling pathway of Notch
+bioplanet_160	ALK in cardiac myocytes
+bioplanet_1699	Non-class A
+bioplanet_1698	Translation factors
+bioplanet_1695	STAT3 pathway
+bioplanet_1694	Myocyte adrenergic pathway
+bioplanet_1693	G alpha 13 pathway
+bioplanet_1692	Adrenergic pathway
+bioplanet_1691	Type I interferon (interferon-alpha/beta) pathway
+bioplanet_1690	PAC1 receptor pathway
+bioplanet_1749	Cytochrome P450 pathway
+bioplanet_1745	Mitochondrial gene expression
+bioplanet_1744	Striated muscle contraction
+bioplanet_1747	Oxidative stress
+bioplanet_1746	Eukaryotic transcription initiation
+bioplanet_1740	FAS pathway and stress induction of heat shock protein regulation
+bioplanet_1743	Mitochondrial fatty acid beta-oxidation
+bioplanet_1742	Ovarian infertility genes
+PATHWAY_ID	PATHWAY_NAME
+bioplanet_1358	Integrin beta-5 pathway
+bioplanet_1359	VEGFR1 pathway
+bioplanet_1352	Syndecan 1 pathway
+bioplanet_1353	p38 MK2 pathway
+bioplanet_1350	T cell receptor/JNK pathway
+bioplanet_1351	C-Myb transcription factor network
+bioplanet_1357	p38 gamma/delta MAPK pathway
+bioplanet_1354	Validated nuclear estrogen receptor alpha network
+bioplanet_1355	ALK2 pathway
+bioplanet_1598	NF-kappaB activation through FADD/RIP-1 pathway
+bioplanet_1599	Activation of pro-caspase 8
+bioplanet_1594	Muscle contraction
+bioplanet_1595	N-glycan antennae elongation in the medial/trans-Golgi
+bioplanet_1596	N-glycan trimming and elongation in the cis-Golgi
+bioplanet_1597	N-glycan trimming in the ER and calnexin/calreticulin cycle
+bioplanet_1590	Mitochondrial uncoupling proteins
+bioplanet_1591	Mitotic G1-G1/S phases
+bioplanet_1592	Mitotic G2-G2/M phases
+bioplanet_958	Alpha-oxidation of phytanate
+bioplanet_959	AMPK inhibition of chREBP transcriptional activation activity
+bioplanet_952	HDL-mediated lipid transport
+bioplanet_950	Utilization of ketone bodies
+bioplanet_951	Chylomicron-mediated lipid transport
+bioplanet_956	Beta-oxidation of pristanoyl-CoA
+bioplanet_957	Beta-oxidation of very long chain fatty acids
+bioplanet_954	Gluconeogenesis
+bioplanet_955	Glycolysis
+bioplanet_428	Low-density lipoprotein (LDL) pathway during atherogenesis
+bioplanet_429	Malate-aspartate shuttle
+bioplanet_422	Eicosanoid metabolism
+bioplanet_423	ER-associated degradation (ERAD) pathway
+bioplanet_420	Mitochondrial carnitine palmitoyltransferase (CPT) system
+bioplanet_421	FYVE-finger proteins in vesicle transport
+bioplanet_426	Ghrelin-mediated regulation of food intake and energy homeostasis
+bioplanet_899	Inhibition of TSC complex formation by Akt
+bioplanet_424	Electron transport reaction in mitochondria
+bioplanet_425	Extrinsic prothrombin activation pathway
+bioplanet_1172	DNA replication
+bioplanet_1173	DNA damage reversal
+bioplanet_1170	SLBP-dependent processing of replication-dependent histone pre-mRNAs
+bioplanet_1171	DNA replication pre-Initiation
+bioplanet_1176	DNA strand elongation
+bioplanet_1177	DNA-PK pathway in nonhomologous end joining
+bioplanet_1174	DNA replication initiation
+bioplanet_1175	DNA damage bypass
+bioplanet_1178	ATM-dependent DNA damage response
+bioplanet_1179	G2/M DNA damage checkpoint
+bioplanet_390	Glycosphingolipid biosynthesis: ganglio series
+bioplanet_391	Fatty acid elongation in mitochondria
+bioplanet_392	Fatty acid metabolism
+bioplanet_393	Ketone body biosynthesis and degradation
+bioplanet_394	Steroid biosynthesis
+bioplanet_395	Primary bile acid biosynthesis
+bioplanet_396	Steroid hormone biosynthesis
+bioplanet_397	Glycerolipid metabolism
+bioplanet_398	Glycerophospholipid metabolism
+bioplanet_399	Ether lipid metabolism
+bioplanet_896	NGF processing
+bioplanet_556	RhoA signaling pathway
+bioplanet_557	Arf6 signal transduction regulation
+bioplanet_554	G13 signaling pathway
+bioplanet_887	Interleukin-1 processing
+bioplanet_552	FSH signaling pathway
+bioplanet_553	Wnt signaling pathway and pluripotency
+bioplanet_550	TOR signaling
+bioplanet_551	Thyroid-stimulating hormone signaling pathway
+bioplanet_1006	Apoptosis
+bioplanet_1007	Apoptotic factor-mediated response
+bioplanet_1004	Localization of the PINCH-ILK-PARVIN complex to focal adhesions
+bioplanet_1005	Apoptotic execution  phase
+bioplanet_1002	Integrin-mediated cell adhesion
+bioplanet_1003	Apoptotic cleavage of cell adhesion  proteins
+bioplanet_558	LKB1 signaling events
+bioplanet_559	SHP2 signaling
+bioplanet_378	Sulfur metabolism
+bioplanet_379	Metabolism
+bioplanet_376	Oxidative phosphorylation
+bioplanet_377	Nitrogen metabolism
+bioplanet_374	Propanoate metabolism
+bioplanet_375	Butanoate metabolism
+bioplanet_372	Pyruvate metabolism
+bioplanet_373	Glyoxylate and dicarboxylate metabolism
+bioplanet_370	Amino sugar and nucleotide sugar metabolism
+bioplanet_371	Inositol phosphate metabolism
+bioplanet_772	Coenzyme A biosynthesis
+bioplanet_773	Hyaluronan biosynthesis and export
+bioplanet_770	Glutathione biosynthesis and recycling
+bioplanet_771	Thyroxine biosynthesis
+bioplanet_776	Prostaglandin biosynthesis and regulation
+bioplanet_777	Cholesterol biosynthesis
+bioplanet_774	Pyrimidine biosynthesis
+bioplanet_775	Acetylcholine biosynthesis
+bioplanet_778	Leading strand biosynthesis
+bioplanet_779	Plasmalogen biosynthesis
+bioplanet_178	Pertussis toxin-insensitive CCR5 signaling in macrophage
+bioplanet_179	Inactivation of GSK3 by Akt causes accumulation of beta-catenin in alveolar macrophages
+bioplanet_170	Degradation of the RAR/RXR heterodimer by the proteasome
+bioplanet_171	Chromatin remodeling by nuclear receptors to facilitate initiation of transcription in carcinoma cells
+bioplanet_172	Acetylation and deacetylation of RelA in the nucleus
+bioplanet_173	G-protein signaling through tubby proteins
+bioplanet_174	PGC-1a regulation
+bioplanet_175	CREB transcription factor and its extracellular signals
+bioplanet_176	Repression of pain sensation by the transcriptional regulator DREAM
+bioplanet_177	Angiotensin II-mediated activation of JNK pathway via Pyk2-dependent signaling
+bioplanet_1771	SIDS susceptibility pathways
+bioplanet_1772	Serotonin HTR1 group and FOS pathway
+bioplanet_1774	Nucleotide G-protein coupled receptors (GPCRs)
+bioplanet_889	Rho GTPase cycle
+bioplanet_760	Incretin biosynthesis
+bioplanet_766	Lagging strand processive biosynthesis
+bioplanet_1349	ALK1 pathway
+bioplanet_1348	E-cadherin keratinocyte pathway
+bioplanet_647	NODAL signaling regulation
+bioplanet_1341	Syndecan 4 pathway
+bioplanet_1340	ERBB1 downstream pathway
+bioplanet_1343	AP-1 transcription factor network
+bioplanet_1342	ATF2 transcription factor network
+bioplanet_1345	FOXM1 transcription factor network
+bioplanet_1344	Integrin beta-2 pathway
+bioplanet_1347	Hypoxic and oxygen homeostasis regulation of HIF-1-alpha
+bioplanet_1346	Ephrin receptor A forward pathway
+bioplanet_1588	Cytochrome P450 metabolism of miscellaneous substrates
+bioplanet_1583	Meiotic recombination
+bioplanet_1582	Meiosis
+bioplanet_1581	Nuclear events mediated by MAP kinases
+bioplanet_1580	M phase pathway
+bioplanet_1587	Methylation
+bioplanet_1586	Activation of NMDA receptor upon glutamate binding and postsynaptic events
+bioplanet_1585	Membrane trafficking
+bioplanet_1584	Meiotic synapsis
+bioplanet_316	Parkinson's disease
+bioplanet_317	Amyotrophic lateral sclerosis (ALS)
+bioplanet_967	Hydrolysis of lysophosphatidylcholine (LPC)
+bioplanet_966	Thyroid hormone activity regulation
+bioplanet_965	Import of palmitoyl-CoA into the mitochondrial matrix
+bioplanet_964	Recycling of bile acids and salts
+bioplanet_963	Abacavir transmembrane transport
+bioplanet_962	PP2A-mediated dephosphorylation of key metabolic factors
+bioplanet_961	PKA-mediated phosphorylation of key metabolic factors
+bioplanet_960	ChREBP activates metabolic gene expression
+bioplanet_969	Acyl chain remodeling of diacylglycerol and triacylglycerol
+bioplanet_968	Acyl chain remodeling of cardiolipin
+bioplanet_417	Mechanism of acetaminophen activity and toxicity
+bioplanet_416	Multi-drug resistance factors
+bioplanet_415	Phosphatidylcholine biosynthesis pathway
+bioplanet_414	Drug metabolism: other enzymes
+bioplanet_413	Drug metabolism: cytochrome P450
+bioplanet_412	Pyrimidine metabolism
+bioplanet_411	Purine metabolism
+bioplanet_410	Terpenoid backbone biosynthesis
+bioplanet_419	ChREBP regulation by carbohydrates and cAMP
+bioplanet_418	Glycosylation of mammalian N-linked oligosaccarides
+bioplanet_1161	Destabilization of mRNA by KSRP
+bioplanet_1160	Destabilization of mRNA by butyrate response factor 1 (BRF1)
+bioplanet_1163	Intronless pre-mRNA processing
+bioplanet_1162	Deadenylation-dependent mRNA decay
+bioplanet_1165	Rev-mediated nuclear export of HIV-1 RNA
+bioplanet_1164	Gene expression
+bioplanet_1167	Capped intron-containing pre-mRNA processing
+bioplanet_1166	Post-transcriptional silencing by small RNAs
+bioplanet_1169	HIV life cycle early phase
+bioplanet_1168	Post-elongation processing of intronless pre-mRNA
+bioplanet_563	Cell death signaling by NRIF in the nucleus
+bioplanet_562	NCAM signaling for neurite out-growth
+bioplanet_561	GAB1 signalosome
+bioplanet_560	Tie2 signaling
+bioplanet_1019	DCC role in regulating apoptosis
+bioplanet_1018	Vpr-mediated induction of apoptosis by mitochondrial outer membrane permeabilization
+bioplanet_565	Rap1 signaling
+bioplanet_564	PD-1 signaling
+bioplanet_1015	Mitochondrial pathway of apoptosis: multidomain Bcl-2 family
+bioplanet_1014	Mitochondrial pathway of apoptosis: antiapoptotic Bcl-2 family
+bioplanet_1017	Mitochondrial pathway of apoptosis: caspases
+bioplanet_1016	Mitochondrial pathway of apoptosis: BH3-only Bcl-2 family
+bioplanet_1011	Apoptosis regulation
+bioplanet_1010	Formation of apoptosome
+bioplanet_1013	Influenza virus-induced apoptosis
+bioplanet_1012	Apoptosis intrinsic pathway
+bioplanet_348	Ubiquinone and other terpenoid-quinone biosynthesis
+bioplanet_343	Arginine and proline metabolism
+bioplanet_342	Lysine degradation
+bioplanet_341	Lysine biosynthesis
+bioplanet_340	Valine
+bioplanet_347	Phenylalanine
+bioplanet_346	Phenylalanine metabolism
+bioplanet_345	Tyrosine metabolism
+bioplanet_344	Histidine metabolism
+bioplanet_749	Dolichyl-phosphate mannose biosynthesis
+bioplanet_748	Bile acid and bile salt biosynthesis via 7-alpha-hydroxycholesterol
+bioplanet_747	Bile acid and bile salt biosynthesis via 27-hydroxycholesterol
+bioplanet_746	Bile acid and bile salt biosynthesis via 24-hydroxycholesterol
+bioplanet_745	UDP-N-acetyl-glucosamine biosynthesis
+bioplanet_744	PIP biosynthesis at the plasma membrane
+bioplanet_743	PIP biosynthesis at the late endosome membrane
+bioplanet_742	PIP biosynthesis at the early endosome membrane
+bioplanet_741	PIP biosynthesis at the Golgi membrane
+bioplanet_740	PIP biosynthesis at the ER membrane
+bioplanet_989	Gap junction assembly
+bioplanet_988	Gap junction trafficking and regulation
+bioplanet_985	Influenza infection
+bioplanet_984	Latent infection of Homo sapiens with Mycobacterium tuberculosis
+bioplanet_987	Hypothetical network for drug addiction
+bioplanet_986	APOBEC3G-mediated resistance to HIV-1 infection
+bioplanet_980	Amyloids
+bioplanet_983	HIV infection
+bioplanet_982	Nef in HIV-1 replication and disease pathogenesis
+bioplanet_185	MSP/RON receptor signaling pathway
+bioplanet_184	Human cytomegalovirus and MAP kinase pathways
+bioplanet_187	Visceral fat deposits and the metabolic syndrome
+bioplanet_181	Cadmium-induced DNA biosynthesis and proliferation in macrophages
+bioplanet_180	B cell survival pathway
+bioplanet_183	Fc epsilon receptor I signaling in mast cells
+bioplanet_182	Inhibition of T cell receptor signaling by activated Csk
+bioplanet_189	Parkin role in the ubiquitin-proteasomal pathway
+bioplanet_188	MAP kinase downregulation by phosphorylation of MEK1 by Cdk5/p35
+bioplanet_1767	Sulfation biotransformation reaction
+bioplanet_1766	Polyol pathway
+bioplanet_1765	Catalytic cycle of mammalian FMOs
+bioplanet_1764	Arachidonate epoxygenase/epoxide hydrolase pathway
+bioplanet_1763	Senescence and autophagy
+bioplanet_1762	ACE inhibitor pathway
+bioplanet_1761	Complement activation
+bioplanet_1760	Calcium regulation in the cardiac cell
+bioplanet_1769	Metapathway biotransformation
+bioplanet_1768	Glucuronidation
+bioplanet_456	Adipocytokine signaling pathway
+bioplanet_459	Vasopressin-regulated water reabsorption
+bioplanet_1126	RNA polymerase I
+bioplanet_1374	Ras family activation regulation
+bioplanet_1375	MAPK/TRK pathway
+bioplanet_1376	PI3K/PLC/TRK pathway
+bioplanet_1377	CD8/T cell receptor downstream pathway
+bioplanet_1370	Myc repressed pathway
+bioplanet_1371	HIF-1 transcriptional activity in hypoxia
+bioplanet_1372	TAp63 pathway
+bioplanet_1378	Polo-like kinase 3 (PLK3) pathway
+bioplanet_1379	Rac1 cell motility signaling pathway
+bioplanet_1576	L1CAM interactions
+bioplanet_1577	Activation of kainate receptors upon glutamate binding
+bioplanet_1574	JNK (c-Jun kinases) phosphorylation and  activation mediated by activated human TAK1
+bioplanet_1575	Kinesins
+bioplanet_1572	Interactions of HIV Vpr protein with host cellular proteins
+bioplanet_1573	Inwardly rectifying potassium channels
+bioplanet_1570	Interaction between L1-type proteins and ankyrins
+bioplanet_1571	Interactions of HIV Tat protein with host cellular proteins
+bioplanet_1579	Lysosome vesicle biogenesis
+bioplanet_915	AKT phosphorylation of nuclear targets
+bioplanet_912	SHC-related events
+bioplanet_1482	Mitochondrial beta-oxidation of saturated fatty acids
+bioplanet_1483	Mitochondrial beta-oxidation of unsaturated fatty acids
+bioplanet_1480	TAK1-mediated activation of p38 MAPK
+bioplanet_1481	Endothelial NOS activation
+bioplanet_1486	BMAL1-CLOCK/NPAS2 activates circadian expression
+bioplanet_1487	Basigin interactions
+bioplanet_1484	Attachment of GPI anchor to uPAR
+bioplanet_1485	AKT-mediated inactivation of FOXO1A
+bioplanet_1488	Beta-oxidation of butanoyl-CoA to acetyl-CoA
+bioplanet_1489	Beta-oxidation of myristoyl-CoA to lauroyl-CoA
+bioplanet_913	eIF4E release
+bioplanet_970	Acyl chain remodelling of phosphatidylcholine
+bioplanet_971	Acyl chain remodelling of phosphatidylglycerol
+bioplanet_972	Acyl chain remodelling of phosphatidylinositol
+bioplanet_973	Acyl chain remodelling of phosphatidylserine
+bioplanet_974	Amine-derived hormones
+bioplanet_975	O-linked glycosylation of mucins
+bioplanet_976	Integrated cancer pathway
+bioplanet_977	Integrated breast cancer pathway
+bioplanet_978	Folate-alcohol and cancer pathway
+bioplanet_979	BRCA1
+bioplanet_400	Arachidonic acid metabolism
+bioplanet_401	Linoleic acid metabolism
+bioplanet_402	Alpha-linolenic acid metabolism
+bioplanet_403	Biosynthesis of unsaturated fatty acids
+bioplanet_404	Beta-alanine metabolism
+bioplanet_405	Taurine and hypotaurine metabolism
+bioplanet_406	Selenoamino acid metabolism
+bioplanet_407	Cyanoamino acid metabolism
+bioplanet_408	D-Glutamine and D-glutamate metabolism
+bioplanet_409	Glutathione metabolism
+bioplanet_1156	Stabilization of mRNA by HuR
+bioplanet_1157	Activation of mRNA upon binding of the cap-binding complex and eIFs
+bioplanet_1150	Binding of RNA by insulin-like growth factor 2 mRNA binding proteins (IGF2BPs/IMPs/VICKZs)
+bioplanet_1151	mRNA stability regulation by proteins that bind AU-rich elements
+bioplanet_1152	Mitochondrial tRNA aminoacylation
+bioplanet_1153	Transcription factor regulation of microRNAs related to cardiac hypertrophy
+bioplanet_1398	HIV-1 early elongation complex formation
+bioplanet_1399	HIV-1 elongation complex formation in the absence of HIV-1 Tat
+bioplanet_1396	Flap intermediate removal from the telomere lagging strand (C-strand)
+bioplanet_1397	2-LTR circle formation
+bioplanet_1394	Translocation of ZAP-70 to immunological synapse
+bioplanet_1395	Eukaryotic translation elongation
+bioplanet_1390	ATR activation in response to replication stress
+bioplanet_1391	APC/C activator regulation between G1/S and early anaphase
+bioplanet_578	CDC42 signaling events
+bioplanet_579	BARD1 signaling events
+bioplanet_576	ERBB4 signaling events
+bioplanet_577	TRAIL signaling pathway
+bioplanet_570	Interleukin-7 signaling pathway
+bioplanet_571	Interleukin-9 signaling pathway
+bioplanet_572	Interleukin-3 signaling pathway
+bioplanet_1028	Influenza factor interactions with host
+bioplanet_1029	Assembly of the ORC complex at the origin of replication
+bioplanet_1020	Breakdown of the nuclear lamina
+bioplanet_1021	Activation of DNA fragmentation factor
+bioplanet_1022	Caspase-mediated cleavage of cytoskeletal proteins
+bioplanet_1023	Inactivation of BCL-2 by BH3-only proteins
+bioplanet_1024	Activation and myristolyation of BID and its translocation to mitochondria
+bioplanet_1025	Cell cycle
+bioplanet_1026	Cell cycle checkpoints
+bioplanet_1027	G1 to S cell cycle control
+bioplanet_354	Pantothenate and CoA biosynthesis
+bioplanet_355	Biotin metabolism
+bioplanet_356	Lipoic acid metabolism
+bioplanet_357	Folate biosynthesis
+bioplanet_350	Thiamine metabolism
+bioplanet_351	Riboflavin metabolism
+bioplanet_352	Vitamin B6 metabolism
+bioplanet_353	Nicotinate and nicotinamide metabolism
+bioplanet_358	Retinol metabolism
+bioplanet_359	Porphyrin and chlorophyll metabolism
+bioplanet_758	Glycogen biosynthesis
+bioplanet_750	Glycosylphosphatidylinositol (GPI) biosynthesis
+bioplanet_751	N-glycan precursor substrate biosynthesis
+bioplanet_752	Ghrelin biosynthesis
+bioplanet_753	Glucose-dependent insulinotropic polypeptide (GIP) biosynthesis
+bioplanet_754	Biosynthesis of the N-glycan precursor (dolichol lipid-linked oligosaccharide
+bioplanet_755	GABA biosynthesis
+bioplanet_756	Insulin biosynthesis and processing
+bioplanet_757	Heme biosynthesis
+bioplanet_998	Oligomerization of connexins into connexons
+bioplanet_999	Nectin adhesion pathway
+bioplanet_996	Post-translational regulation of adherens junction stability and disassembly
+bioplanet_997	Nectin/Necl  trans heterodimerization
+bioplanet_994	Electric transmission across gap junctions
+bioplanet_995	Type I hemidesmosome assembly
+bioplanet_992	Adherens junction actin cytoskeletal organization
+bioplanet_993	Gap junction activity regulation
+bioplanet_990	Cell junction organization
+bioplanet_991	Tight junction interactions
+bioplanet_824	Glucose metabolism
+bioplanet_196	Actin cytoskeleton regulation
+bioplanet_197	Focal adhesion
+bioplanet_194	Oocyte meiosis
+bioplanet_195	p53 activity regulation
+bioplanet_192	Visual signal transduction
+bioplanet_193	Reelin signaling pathway
+bioplanet_191	TrkA receptor signaling pathway
+bioplanet_198	Adherens junction cell adhesion
+bioplanet_199	Tight junction
+bioplanet_823	Folate metabolism
+bioplanet_1712	Nuclear receptors
+bioplanet_1710	Nicotine activity on dopaminergic neurons
+bioplanet_1711	Nicotine activity on chromaffin cells
+bioplanet_1716	SRF and microRNAs in smooth muscle differentiation and proliferation
+bioplanet_1714	TP53 network
+bioplanet_1715	Peroxisomal beta-oxidation of tetracosanoyl-CoA
+bioplanet_1718	MAPK cascade role in angiogenesis
+bioplanet_1719	Nitric oxide effects
+bioplanet_1628	Polo-like kinase-mediated events
+bioplanet_1629	Post-chaperonin tubulin folding pathway
+bioplanet_1626	Platelet homeostasis
+bioplanet_1627	Platelet sensitization by LDL
+bioplanet_1624	Phosphorylation of proteins involved in the G2/M transition by cyclin A-Cdc2 complexes
+bioplanet_1625	Platelet calcium homeostasis
+bioplanet_1622	Phosphorylation of Emi1
+bioplanet_1623	Phosphorylation of proteins involved in G1/S transition by active cyclin E-Cdk2 complexes
+bioplanet_1620	Packaging of telomere ends
+bioplanet_1621	Phase I of biological oxidations: functionalization of compounds
+bioplanet_1363	Delta Np63 pathway
+bioplanet_1362	T cell receptor calcium pathway
+bioplanet_1361	Interleukin-2/STAT5 pathway
+bioplanet_1360	p38 alpha/beta MAPK downstream pathway
+bioplanet_1367	Insulin regulation of blood glucose
+bioplanet_1366	RAC1 activity regulation
+bioplanet_1365	Syndecan 2 pathway
+bioplanet_1364	FOXA transcription factor networks
+bioplanet_1369	Syndecan 3 pathway
+bioplanet_1368	PIK3C1/AKT pathway
+bioplanet_1565	Inactivation of APC/C via direct inhibition of the APC/C complex
+bioplanet_1564	Activation of chaperones by ATF6 alpha
+bioplanet_1567	Activation of chaperones by IRE1 alpha
+bioplanet_1566	Inflammasomes
+bioplanet_1561	IKK complex recruitment by IRAK1
+bioplanet_1560	Notch receptor processing
+bioplanet_1563	IRF3-mediated activation of type 1 interferon
+bioplanet_1562	IRAK2-mediated activation of TAK1 complex
+bioplanet_1569	Integrin cell surface interactions
+bioplanet_1568	Inhibition of insulin secretion by adrenaline/noradrenaline
+bioplanet_1491	Biological oxidations
+bioplanet_1490	Binding and entry of HIV virion
+bioplanet_1493	CD28-dependent Vav1 pathway
+bioplanet_1492	Botulinum neurotoxicity
+bioplanet_1495	CHL1 interactions
+bioplanet_1494	CDO in myogenesis
+bioplanet_1497	Calcium-activated potassium channels
+bioplanet_1496	CREB phosphorylation through the activation of adenylate cyclase
+bioplanet_1499	Cell-extracellular matrix interactions
+bioplanet_1498	Cell surface interactions at the vascular wall
+bioplanet_1158	Eukaryotic translation initiation ternary complex and 43S complex formation
+bioplanet_1159	Destabilization of mRNA by AUF1 (hnRNP D0)
+bioplanet_1149	Cytosolic tRNA aminoacylation
+bioplanet_1148	Regulatory RNA pathways
+bioplanet_1143	Alternative NF-kappaB pathway
+bioplanet_1142	Alternative complement activation
+bioplanet_1141	Diurnally regulated genes with circadian orthologs
+bioplanet_1147	ERBB1 internalization pathway
+bioplanet_1145	Viral dsRNA-TLR3-TRIF complex activation of RIP1
+bioplanet_1144	MicroRNAs in cardiomyocyte hypertrophy
+bioplanet_1154	Deadenylation of mRNA
+bioplanet_1389	Coagulation intrinsic pathway
+bioplanet_1388	Extrinsic pathway
+bioplanet_1155	Small interfering RNA (siRNA) biogenesis
+bioplanet_1385	Golgi-associated vesicle biogenesis
+bioplanet_1384	Interleukin-12/STAT4 pathway
+bioplanet_1387	Presynaptic function of kainate receptors
+bioplanet_1386	Maturation of Notch precursor via proteolytic cleavage
+bioplanet_1381	Glypican-3 pathway
+bioplanet_1380	Retinoblastoma protein regulation
+bioplanet_1383	HES/HEY pathway
+bioplanet_1382	HNF3A pathway
+bioplanet_699	Sema3A-plexin repulsion signaling by inhibiting integrin adhesion
+bioplanet_698	Retrograde neurotrophin signaling
+bioplanet_691	Sprouty regulation of FGF signaling
+bioplanet_690	NF-kappaB activation
+bioplanet_693	p130Cas linkage to MAPK signaling for integrins
+bioplanet_692	Thromboxane A2 receptor signaling
+bioplanet_695	DCC-mediated attractive signaling
+bioplanet_694	CD28-dependent PI3K/Akt signaling
+bioplanet_696	Downregulation of ERBB4 signaling
+bioplanet_509	Signaling by ERBB2
+bioplanet_508	Signaling by EGFR in cancer
+bioplanet_501	Signaling events mediated by focal adhesion kinase
+bioplanet_500	Signaling events mediated by VEGFR1 and VEGFR2
+bioplanet_503	Signal amplification
+bioplanet_502	Signaling by EGFR
+bioplanet_505	Signal regulatory protein (SIRP) family interactions
+bioplanet_504	Signal attenuation
+bioplanet_507	Signaling by bone morphogenetic protein (BMP)
+bioplanet_506	Signal transduction by L1
+bioplanet_1037	Deposition of new CENP-A-containing nucleosomes at the centromere
+bioplanet_1036	Influenza viral RNA transcription and replication
+bioplanet_1035	CDC6 association with the ORC-origin complex
+bioplanet_1034	Chromosome maintenance
+bioplanet_1032	Assembly of HIV virion
+bioplanet_1031	Assembly of influenza viral components at the budding site
+bioplanet_1030	Assembly of the RAD50-MRE11-NBS1 complex at DNA double-strand breaks
+bioplanet_1039	Double-strand break repair
+bioplanet_1038	DNA repair
+bioplanet_321	Bystander B cell activation
+bioplanet_322	B lymphocyte cell surface molecules
+bioplanet_325	Cells and molecules involved in local acute inflammatory response
+bioplanet_324	CTL mediated immune response against target cells
+bioplanet_327	SARS coronavirus protease
+bioplanet_326	Monocyte and its surface molecules
+bioplanet_329	T helper cell surface molecules
+bioplanet_328	T cell receptor and CD3 complex
+bioplanet_215	HOP pathway in cardiac development
+bioplanet_214	Segmentation clock
+bioplanet_217	CTCF pathway
+bioplanet_211	Eosinophils in the chemokine network of allergy
+bioplanet_210	CD40L signaling pathway
+bioplanet_213	Small leucine-rich proteoglycan (SLRP) molecules
+bioplanet_212	Function of SLRP in bone
+bioplanet_219	Multi-step regulation of transcription by PITX2
+bioplanet_218	PRC2 complex long-term gene silencing through modification of histone tails
+bioplanet_837	Glyoxylate metabolism
+bioplanet_1701	Phase I of biological oxidations: non-cytochrome P450 enzymes
+bioplanet_1700	Matrix metalloproteinases
+bioplanet_1702	Fatty acid beta oxidation
+bioplanet_1705	Physiological and pathological hypertrophy  of the heart
+bioplanet_1704	Selenium pathway
+bioplanet_1707	Angiogenesis
+bioplanet_1709	Fluoropyrimidine activity
+bioplanet_1708	Heart development
+bioplanet_905	Immune system
+bioplanet_904	G-protein activation
+bioplanet_906	Disease
+bioplanet_901	Costimulation by the CD28 family
+bioplanet_900	NCAM1 interactions
+bioplanet_1639	Initiation of the second proteolytic cleavage of Notch receptor by receptor-ligand binding
+bioplanet_1638	Ras activation upon calcium influx through NMDA receptor
+bioplanet_1635	RIG-I/MDA5-mediated induction of interferon-alpha/beta pathways
+bioplanet_1634	Protein folding
+bioplanet_1637	RSK activation
+bioplanet_1636	RORA activates circadian expression
+bioplanet_1631	Potassium channels
+bioplanet_1630	Post-translational protein modification
+bioplanet_1633	Propionyl-CoA catabolism
+bioplanet_1632	Progressive trimming of alpha-1
+bioplanet_1550	Glutamate binding and activation of AMPA receptors and synaptic plasticity
+bioplanet_1551	Glutamate neurotransmitter release cycle
+bioplanet_1552	Glutathione conjugation
+bioplanet_1553	Activation of C3 and C5
+bioplanet_1554	Activation of calcium-permeable kainate receptor
+bioplanet_1555	Hyperpolarization-activated cyclic nucleotide-gated (HCN) channels
+bioplanet_1556	HIV life cycle
+bioplanet_1557	HIV-1 transcription initiation
+bioplanet_1558	Hemostasis pathway
+bioplanet_1559	Highly sodium permeable acetylcholine nicotinic receptors
+bioplanet_18	Mitochondrial role in apoptotic signaling
+bioplanet_19	Caspase cascade in apoptosis
+bioplanet_14	Apoptotic signaling in response to DNA damage
+bioplanet_15	Induction of apoptosis through DR3 and DR4/5 death receptors
+bioplanet_1736	Blood clotting cascade
+bioplanet_1737	NOD-like receptor (NLR) proteins
+bioplanet_10	Adhesion and diapedesis of granulocytes
+bioplanet_11	Adhesion and diapedesis of lymphocytes
+bioplanet_1732	Adipogenesis
+bioplanet_688	Alpha-6 beta-1 and alpha-6 beta-4 integrin signaling
+bioplanet_689	Integrin alpha-2b beta-3 signaling
+bioplanet_682	PI3K events in ERBB2 signaling
+bioplanet_683	Platelet activation
+bioplanet_680	GRB7 events in ERBB2 signaling
+bioplanet_681	NADE-dependent death signaling
+bioplanet_686	Interferon alpha/beta signaling
+bioplanet_687	Integrin-linked kinase signaling
+bioplanet_684	SHC1 events in ERBB2 signaling
+bioplanet_685	Sema4D in semaphorin signaling
+bioplanet_518	Signaling by NODAL
+bioplanet_519	Signaling by NOTCH
+bioplanet_512	Signaling by FGFR mutants
+bioplanet_513	Signaling by FGFR1 fusion mutants
+bioplanet_510	Signaling by ERBB4
+bioplanet_511	Signaling by FGFR in disease
+bioplanet_516	Signaling by insulin receptor
+bioplanet_517	Signaling by interleukins
+bioplanet_514	Signaling by FGFR1 mutants
+bioplanet_515	Signaling by Hippo
+bioplanet_1042	DNA double-strand break processing
+bioplanet_1043	Transport to the Golgi and subsequent modification
+bioplanet_1040	ATM-mediated phosphorylation of repair proteins
+bioplanet_1041	Global genomic nucleotide excision repair (GG-NER)
+bioplanet_1046	Transport of vitamins
+bioplanet_1047	Transport of mature mRNAs derived from intronless transcripts
+bioplanet_1044	Transport of glucose and other sugars
+bioplanet_1045	Transport of inorganic cations/anions and amino acids/oligopeptides
+bioplanet_1048	Transport of mature transcript to cytoplasm
+bioplanet_1049	Transport of fatty acids
+bioplanet_332	Alternative complement pathway
+bioplanet_333	Salmonella infection
+bioplanet_330	Ras-independent pathway in NK cell-mediated cytotoxicity
+bioplanet_331	Lectin-induced complement pathway
+bioplanet_336	Alanine
+bioplanet_337	Glycine
+bioplanet_334	West Nile virus infection
+bioplanet_335	Defeat of host-mediated resistance by HIV-1
+bioplanet_338	Cysteine and methionine metabolism
+bioplanet_339	Valine
+bioplanet_206	GATA3-mediated activation of Th2 cytokine expression
+bioplanet_207	Hematopoiesis regulation by cytokines
+bioplanet_204	Phagosome
+bioplanet_205	Peroxisome
+bioplanet_202	Lysosome
+bioplanet_203	Endocytosis
+bioplanet_200	Gap junction pathway
+bioplanet_201	Autophagy regulation
+bioplanet_208	CCR3 signaling in eosinophils
+bioplanet_209	Dendritic cells in regulating TH1 and TH2 development
+bioplanet_1738	Myometrial relaxation and contraction pathways
+bioplanet_1739	Keap1-Nrf2 pathway
+bioplanet_1734	Small ligand GPCRs
+bioplanet_1735	Nifedipine activity
+bioplanet_16	Apoptotic DNA fragmentation and tissue homeostasis
+bioplanet_17	HIV-1 Nef as negative effector of Fas and TNF
+bioplanet_1730	Neural crest differentiation
+bioplanet_1731	Irinotecan pathway
+bioplanet_12	Granzyme A-mediated apoptosis pathway
+bioplanet_13	Opposing roles of AIF in apoptosis and cell survival
+bioplanet_1608	Neuronal system
+bioplanet_1609	Neurotransmitter clearance in the synaptic cleft
+bioplanet_1600	NICD trafficking to the nucleus
+bioplanet_1601	NOSTRIN-mediated endothelial NOS trafficking
+bioplanet_1602	Influenza NS1-mediated effects on host pathways
+bioplanet_1603	Nef-mediated CD4 downregulation
+bioplanet_1604	Nef-mediated CD8 downregulation
+bioplanet_1605	Nef-mediated downregulation of MHC class I complex cell surface expression
+bioplanet_1606	Nephrin interactions
+bioplanet_1607	Neurofascin interactions
+bioplanet_1549	Generic transcription pathway
+bioplanet_1548	Activation of BIM and translocation to mitochondria
+bioplanet_1547	GABA A and B receptor activation
+bioplanet_1546	BAD activation and translocation to mitochondria
+bioplanet_1545	GABA (A) receptor activation
+bioplanet_1544	GABA (A) rho receptor activation
+bioplanet_1543	G2 phase pathway
+bioplanet_1542	G1/S-specific transcription
+bioplanet_1541	G0 and early G1 pathway
+bioplanet_1540	AMPA receptor activation
+bioplanet_527	Signaling by activated point mutants of FGFR1
+bioplanet_526	Signaling by VEGF
+bioplanet_525	Signaling by TGF-beta receptor complex
+bioplanet_524	Signaling by SCF-KIT
+bioplanet_523	Signaling by Robo receptor
+bioplanet_522	Signaling by PDGF
+bioplanet_521	Signaling by NOTCH2
+bioplanet_520	Signaling by NOTCH1
+bioplanet_839	Nicotinate metabolism
+bioplanet_838	Hyaluronan metabolism
+bioplanet_529	Signaling by the B cell receptor (BCR)
+bioplanet_528	Signaling by constitutively active EGFR
+bioplanet_1051	Transport of nucleotide sugars
+bioplanet_1050	Transport of nucleosides and free purine and pyrimidine bases across the plasma membrane
+bioplanet_1053	Ion transport by P-type ATPases
+bioplanet_1052	Transport of organic anions
+bioplanet_1055	Zinc transporters
+bioplanet_1054	ABCA transporters in lipid homeostasis
+bioplanet_1057	Passive transport by aquaporins
+bioplanet_1056	Hexose transport
+bioplanet_1059	Electron transport chain
+bioplanet_1058	Inositol transporters
+bioplanet_811	Nitric oxide metabolism
+bioplanet_810	Lipid and lipoprotein metabolism
+bioplanet_783	Catecholamine biosynthesis
+bioplanet_782	Pregnenolone biosynthesis
+bioplanet_781	Triglyceride biosynthesis
+bioplanet_780	Biogenic amine biosynthesis
+bioplanet_787	Peptide hormone biosynthesis
+bioplanet_786	Glucocorticoid biosynthesis
+bioplanet_785	Fatty acyl-CoA biosynthesis
+bioplanet_784	Triacylglyceride biosynthesis
+bioplanet_789	Dermatan sulfate biosynthesis
+bioplanet_788	Viral messenger RNA biosynthesis
+bioplanet_233	VEGF signaling pathway
+bioplanet_232	TGF-beta regulation of skeletal system development
+bioplanet_231	Hedgehog signaling pathway
+bioplanet_230	Wnt signaling pathway
+bioplanet_237	ECM-receptor interaction
+bioplanet_236	Neuroactive ligand-receptor interaction
+bioplanet_235	Cytokine-cytokine receptor interaction
+bioplanet_234	Jak-STAT signaling pathway
+bioplanet_239	Transcriptional activation of dbpB from mRNA
+bioplanet_238	Cell adhesion molecules (CAMs)
+bioplanet_818	Metabolism of vitamins and cofactors
+bioplanet_8	PI3K subunit p85 role in regulation of actin organization and cell migration
+bioplanet_9	Rho cell motility signaling pathway
+bioplanet_2	Mu-calpain pathway
+bioplanet_3	AKT signaling pathway
+bioplanet_1	Inhibition of matrix metalloproteinases
+bioplanet_6	Activation of cAMP-dependent protein kinase
+bioplanet_7	Mammalian calpain regulation of cell motility
+bioplanet_4	Cell to cell adhesion signaling
+bioplanet_5	Collagen binding in corneal epithelia mediated by Erk and PI-3 Kinase
+bioplanet_659	CRMPs in Sema3A signaling
+bioplanet_658	Mammalian target of rapamycin complex 1 (mTORC1)-mediated signaling
+bioplanet_309	Pathogenic Escherichia coli infection
+bioplanet_308	Epithelial cell signaling in Helicobacter pylori infection
+bioplanet_307	Vibrio cholerae infection
+bioplanet_654	Alpha-6 beta-4 integrin signaling pathway
+bioplanet_657	GPCR downstream signaling
+bioplanet_656	Alpha-synuclein signaling
+bioplanet_651	Endogenous Toll-like receptor signaling
+bioplanet_302	Systemic lupus erythematosus
+bioplanet_301	Autoimmune thyroid disease
+bioplanet_652	T cell receptor downstream signaling
+bioplanet_1729	Fatty acid omega oxidation
+bioplanet_1727	Cell differentiation pathway
+bioplanet_1726	MicroRNAs in muscle cell differentiation
+bioplanet_1725	SREBF and miR-33 in cholesterol and lipid homeostasis
+bioplanet_1617	Oxygen-dependent asparagine hydroxylation of hypoxia-inducible factor 1 alpha (HIF1-alpha)
+bioplanet_1616	Other semaphorin interactions
+bioplanet_1615	Oxygen/carbon dioxide exchange in erythrocytes
+bioplanet_1614	Activation of the AP-1 family of transcription factors
+bioplanet_1613	Nuclear receptor transcription pathway
+bioplanet_1612	NrCAM interactions
+bioplanet_1611	Norepinephrine neurotransmitter release cycle
+bioplanet_1610	Nitric oxide stimulation of guanylate cyclase
+bioplanet_1619	PERK-regulated gene expression
+bioplanet_1618	Platelet endothelial cell adhesion molecule 1 (PECAM1) interactions
+bioplanet_1538	Fibrin clot formation (clotting cascade)
+bioplanet_1539	UDP-glucuronate active cofactor formation
+bioplanet_1532	Ethanol oxidation
+bioplanet_1533	Extension of telomeres
+bioplanet_1530	Entry of influenza virion into host cell via endocytosis
+bioplanet_1531	Activated AMPK stimulation of fatty-acid oxidation in muscle
+bioplanet_1536	Cytochrome P450 metabolism of fatty acids
+bioplanet_1537	Folding of actin by CCT/TriC
+bioplanet_1534	Oxidation of nucleophiles by flaving-containing monooxygenase (FMO)
+bioplanet_1535	Factors involved in megakaryocyte development and platelet production
+bioplanet_1286	ERK5 role in neuronal survival pathway
+bioplanet_1287	eIF4E and p70 S6 kinase regulation
+bioplanet_1283	Hypoxia-inducible factor in the cardivascular system
+bioplanet_1289	BRCA1-dependent ubiquitin ligase activity
+bioplanet_1446	Amino acid conjugation
+bioplanet_1447	Smooth muscle contraction
+bioplanet_1444	Wnt interactions in lipid metabolism and immune response
+bioplanet_1445	TNF-alpha effects on cytokine activity
+bioplanet_1442	TGF-beta regulation of extracellular matrix
+bioplanet_1443	BDNF signaling pathway
+bioplanet_1440	Prolactin regulation of apoptosis
+bioplanet_1441	Kit receptor transcriptional targets
+bioplanet_1449	TAK1 activates NF-kappaB by phosphorylation and activation of IKK complex
+bioplanet_1190	Cytosolic sensors of pathogen-associated DNA
+bioplanet_1191	Mechanisms of transcriptional repression by DNA methylation
+bioplanet_1193	Inhibition of replication initiation of damaged DNA by RB1/E2F1
+bioplanet_1194	Integration of provirus
+bioplanet_1195	Chk1/Chk2(Cds1)-mediated inactivation of cyclin B-Cdk1 complex
+bioplanet_1196	Association of licensing factors with the pre-replicative complex
+bioplanet_1197	E2F-enabled inhibition of pre-replication complex formation
+bioplanet_1198	Phase II of biological oxidations: conjugation
+bioplanet_1199	Activation of BMF and translocation to mitochondria
+bioplanet_886	EGFR downregulation
+bioplanet_880	Gap junction degradation
+bioplanet_881	APC/C-mediated degradation of cell cycle proteins
+bioplanet_1008	Apoptotic cleavage of cellular proteins
+bioplanet_1009	Apoptosis modulation by HSP70
+bioplanet_530	Signaling by NGF
+bioplanet_531	Signaling to ERKs
+bioplanet_532	Signaling to STAT3
+bioplanet_533	Signaling to p38 via RIT and RIN
+bioplanet_534	Signal transduction
+bioplanet_535	Signaling by GPCR
+bioplanet_536	Signal transduction of S1P receptor
+bioplanet_537	Inhibitor of DNA binding (ID) signaling pathway
+bioplanet_538	T cell receptor signaling in naive CD4+ T cells
+bioplanet_539	T cell receptor signaling in naive CD8+ T cells
+bioplanet_1066	COPI-mediated vesicle transport
+bioplanet_1067	Transmembrane transport of small molecules
+bioplanet_1060	Potassium transport channels
+bioplanet_1061	Serotonin transporter activity
+bioplanet_1062	Monoamine transport
+bioplanet_1063	Amino acid transport across the plasma membrane
+bioplanet_1000	Platelet adhesion to exposed collagen
+bioplanet_1268	Relaxin receptors
+bioplanet_1269	SHC activation
+bioplanet_1266	Adenylate cyclase inhibitory pathway
+bioplanet_1267	Rheb GTPase activity by AMPK regulation
+bioplanet_1264	Prostanoid ligand receptors
+bioplanet_1265	Adenosine P1 receptors
+bioplanet_1262	Pre-NOTCH processing in Golgi
+bioplanet_1263	Pre-NOTCH Processing in the endoplasmic reticulum
+bioplanet_1260	Peptide G-protein coupled receptors
+bioplanet_1261	Pre-NOTCH expression and processing
+bioplanet_798	Termination of O-glycan biosynthesis
+bioplanet_794	Molybdenum cofactor biosynthesis
+bioplanet_795	Sphingolipid de novo biosynthesis
+bioplanet_796	Tetrahydrobiopterin (BH4) biosynthesis
+bioplanet_797	Serotonin and melatonin biosynthesis
+bioplanet_790	Mineralocorticoid biosynthesis
+bioplanet_791	Chondroitin sulfate biosynthesis
+bioplanet_792	Gap-filling DNA repair biosynthesis and ligation in global genomic nucleotide excision repair
+bioplanet_793	Glycerophospholipid biosynthesis
+bioplanet_228	Calcium signaling pathway
+bioplanet_229	Phosphatidylinositol signaling system
+bioplanet_224	Cardiac protection against reactive oxygen species
+bioplanet_225	ABC transporters
+bioplanet_226	MAPK signaling pathway
+bioplanet_227	ERBB signaling pathway
+bioplanet_220	Effect of METS on macrophage differentiation
+bioplanet_221	IGF-1 receptor and longevity
+bioplanet_222	Vitamin C in the brain
+bioplanet_223	Lissencephaly gene (LIS1) in neuronal migration and development
+bioplanet_318	Huntington's disease
+bioplanet_319	Prion diseases
+bioplanet_648	CBL signaling regulation
+bioplanet_649	GM-CSF-mediated signaling events
+bioplanet_310	Shigellosis
+bioplanet_311	Leishmaniasis
+bioplanet_312	Chagas disease
+bioplanet_313	Malaria
+bioplanet_314	Amoebiasis
+bioplanet_315	Alzheimer's disease
+bioplanet_640	Alpha-4 beta-7 integrin signaling
+bioplanet_641	PDGF genes and receptors
+bioplanet_38	Proepithelin conversion to epithelin and wound repair control
+bioplanet_39	Cycling of Ran in nucleocytoplasmic transport
+bioplanet_32	OX40 signaling pathway
+bioplanet_33	Inhibition of activated T cell apoptosis by neuropeptides VIP and PACAP
+bioplanet_30	TNFR1 signaling pathway
+bioplanet_31	MEF2D role in T cell apoptosis
+bioplanet_36	Acute myocardial infarction
+bioplanet_37	Angiotensin-converting enzyme 2 regulation of heart function
+bioplanet_34	HIV-induced T cell apoptosis
+bioplanet_35	Free radical-induced apoptosis
+bioplanet_1662	Sema3A/PAK-dependent axon repulsion
+bioplanet_1663	ERK1/ERK2 MAPK pathway
+bioplanet_1660	Response to elevated platelet cytosolic calcium
+bioplanet_1661	Amine oxidase reactions
+bioplanet_1666	cAMP receptor
+bioplanet_1667	Granule cell survival pathway
+bioplanet_1664	JNK/MAPK pathway
+bioplanet_1668	Wnt/calcium/cyclic GMP pathway
+bioplanet_1669	Epidermal growth factor receptor (EGFR) pathway
+bioplanet_1529	Endosomal/vacuolar pathway
+bioplanet_1528	Cytochrome P450 metabolism of endogenous sterols
+bioplanet_1521	Dopamine neurotransmitter release cycle
+bioplanet_1520	Dissolution of fibrin clot
+bioplanet_1523	Dual incision reaction in TC-NER
+bioplanet_1522	Dual incision reaction in GG-NER
+bioplanet_1525	Cytochrome P450 metabolism of eicosanoids
+bioplanet_1524	ER quality control compartment (ERQC)
+bioplanet_1527	Elevation of cytosolic calcium levels
+bioplanet_1526	Acetylcholine neurotransmitter release cycle
+bioplanet_903	DARPP-32 events
+bioplanet_1292	Endothelins
+bioplanet_1291	SMAD2/3 nuclear pathway
+bioplanet_1297	Atypical NF-kappaB pathway
+bioplanet_1296	p73 transcription factor network
+bioplanet_1295	Beta-1 integrin cell surface interactions
+bioplanet_1294	LPA receptor mediated events
+bioplanet_1299	E2F transcription factor network
+bioplanet_1454	TWIK-related potassium channel (TREK) pathway
+bioplanet_1457	Telomere extension by telomerase
+bioplanet_1456	Tandem pore domain potassium channels
+bioplanet_1451	TRAF6-mediated IRF7 activation
+bioplanet_1450	TRAF3-dependent IRF activation pathway
+bioplanet_1453	TRAF6 mediated NF-kB activation
+bioplanet_1452	Antigen processing: cross presentation
+bioplanet_1459	Telomere maintenance
+bioplanet_1458	Antiviral mechanism by interferon-stimulated genes
+bioplanet_1189	Activation of the pre-replicative complex
+bioplanet_1188	Formation of viral DNA circles by autointegration
+bioplanet_1187	E2F-mediated regulation of DNA replication
+bioplanet_1186	G2/M checkpoints
+bioplanet_1185	S phase
+bioplanet_1184	DNA end processing prior to end rejoining
+bioplanet_1183	Proteins and DNA sequences in cardicac structures
+bioplanet_1182	Unwinding of DNA
+bioplanet_1181	Homologous DNA pairing and strand exchange
+bioplanet_1180	G2/M DNA replication checkpoint
+bioplanet_902	PKB-mediated events
+bioplanet_813	Nucleotide metabolism
+bioplanet_812	Non-coding RNA metabolism
+bioplanet_1079	Sodium/proton exchangers
+bioplanet_1078	Sodium-dependent glucose transporters
+bioplanet_817	Steroid hormone
+bioplanet_816	Protein metabolism
+bioplanet_815	Porphyrin metabolism
+bioplanet_814	Polyamine metabolism
+bioplanet_1073	Type II sodium/phosphate cotransporters
+bioplanet_1072	Iron uptake and transport
+bioplanet_1071	Organic cation transport
+bioplanet_1070	Metal ion solute carrier family (SLC) transporters
+bioplanet_1077	Gamma-carboxylation
+bioplanet_1076	Amine compound SLC transporters
+bioplanet_1075	Aquaporin-mediated transport
+bioplanet_1074	Mitochondrial ABC transporters
+bioplanet_1278	Interferon-beta enhancer pathway
+bioplanet_1275	Bone remodeling
+bioplanet_1277	Mechanism of gene regulation by peroxisome proliferators via PPAR-alpha
+bioplanet_1276	Proteasome complex
+bioplanet_1271	VEGF
+bioplanet_1270	Amine ligand-binding G-protein coupled receptors
+bioplanet_1272	Trefoil factor initiation of mucosal healing
+bioplanet_259	Basal transcription factors
+bioplanet_258	RNA polymerase
+bioplanet_251	Telomerase RNA component gene hTERC transcriptional regulation
+bioplanet_250	Spliceosomal assembly
+bioplanet_253	Telomerase protein component gene hTERT transcriptional regulation
+bioplanet_252	Control of gene expression by vitamin D receptor
+bioplanet_255	FXR and LXR regulation of cholesterol metabolism
+bioplanet_254	SUMOylation by RanBP2 regulates transcriptional repression
+bioplanet_257	Inhibition of Huntington's disease neurodegeneration by histone deacetylase inhibitors (HDACs)
+bioplanet_256	SREBP control of lipid biosynthesis
+bioplanet_499	Signaling events mediated by stem cell factor receptor (c-Kit)
+bioplanet_498	Signaling events mediated by the hedgehog family
+bioplanet_497	Signaling events mediated by HDAC class I
+bioplanet_496	Signaling events mediated by T cell protein tyrosine phosphatase (TC-PTP)
+bioplanet_495	Signaling events regulated by Ret tyrosine kinase
+bioplanet_494	Signaling by aurora kinases
+bioplanet_493	Signaling events mediated by PTP1B
+bioplanet_492	Signaling events mediated by hepatocyte growth factor receptor (c-Met)
+bioplanet_491	Signaling events mediated by HDAC class II
+bioplanet_490	Signaling events mediated by PRL
+bioplanet_679	Glycoprotein 1b-IX-V activation signaling
+bioplanet_678	G-protein beta-gamma signalling
+bioplanet_673	Interferon alpha signaling regulation
+bioplanet_672	Prolactin receptor signaling pathway
+bioplanet_671	Androgen receptor signaling
+bioplanet_670	KIT signaling regulation
+bioplanet_677	EGF receptor (ErbB1) signaling pathway
+bioplanet_676	SHC1 events in EGFR signaling
+bioplanet_675	Type II interferon signaling (interferon-gamma)
+bioplanet_674	Interferon gamma signaling regulation
+bioplanet_835	Arylamine metabolism
+bioplanet_109	NF-kappaB activation by non-typeable Hemophilus influenzae
+bioplanet_834	Tamoxifen metabolism
+bioplanet_105	Modulation of interferon signaling by chaperones
+bioplanet_104	Ras signaling pathway
+bioplanet_107	Sprouty regulation of tyrosine kinase signals
+bioplanet_101	Phospholipase C signaling pathway
+bioplanet_100	Phospholipase C epsilon pathway
+bioplanet_103	Ion channel function in vascular endothelium
+bioplanet_102	Phosphoinositides and their downstream targets
+bioplanet_836	Prostanoid metabolism
+bioplanet_831	Selenium metabolism and selenoproteins
+bioplanet_830	Nicotine metabolism
+bioplanet_833	Estrogen metabolism
+bioplanet_832	Glycogen metabolism
